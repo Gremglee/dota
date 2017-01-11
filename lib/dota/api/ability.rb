@@ -18,8 +18,11 @@ module Dota
         # :hp1 - 90x90 PNG image
         # :hp2 - 105x105 PNG image
         # :lg - 128x128 PNG image
-
-        "http://cdn.dota2.com/apps/dota2/images/abilities/#{internal_name}_#{type}.png"
+        if internal_name.match(/special_bonus_/)
+          "https://steamcdn-a.akamaihd.net/apps/dota2/images/workshop/itembuilder/stats.png"
+        else
+          "http://cdn.dota2.com/apps/dota2/images/abilities/#{internal_name}_#{type}.png"
+        end
       end
 
       private
