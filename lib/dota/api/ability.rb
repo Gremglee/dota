@@ -9,8 +9,8 @@ module Dota
 
       def initialize(id)
         @id = id
-        @internal_name = mapping[id]&.first || "unknown_ability_#{id}"
-        @name = mapping[id][1] || @internal_name
+        @internal_name = mapping[id].dig(0) || "unknown_ability_#{id}"
+        @name = mapping[id].dig(1) || @internal_name
       end
 
       def image_url(type = :lg)
