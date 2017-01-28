@@ -9,7 +9,7 @@ module Dota
 
       def initialize(id)
         @id = id
-        @internal_name = mapping[id][0]
+        @internal_name = mapping[id]&.first || "unknown_ability_#{id}"
         @name = mapping[id][1] || @internal_name
       end
 
