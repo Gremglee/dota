@@ -3,7 +3,7 @@ module Dota
     class Hero
       include Utilities::Mapped
 
-      attr_reader :id, :name
+      attr_reader :id, :name, :type
 
       def self.find(id)
         hero = mapping[id]
@@ -14,6 +14,7 @@ module Dota
         @id = id
         @internal_name = mapping[id][0]
         @name = mapping[id][1]
+        @type = mapping[id][2]
       end
 
       def image_url(type = :full)
