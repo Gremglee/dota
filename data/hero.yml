@@ -1,345 +1,460 @@
 1:
   - antimage
   - Anti-Mage
+  - agility
 2:
   - axe
   - Axe
+  - strength
 3:
   - bane
   - Bane
+  - intelligence
 4:
   - bloodseeker
   - Bloodseeker
+  - agility
 5:
   - crystal_maiden
   - Crystal Maiden
+  - intelligence
 6:
   - drow_ranger
   - Drow Ranger
+  - agility
 7:
   - earthshaker
   - Earthshaker
+  - strength
 8:
   - juggernaut
   - Juggernaut
+  - agility
 9:
   - mirana
   - Mirana
+  - agility
 10:
   - morphling
   - Morphling
+  - agility
 11:
   - nevermore
   - Shadow Fiend
+  - agility
 12:
   - phantom_lancer
   - Phantom Lancer
+  - agility
 13:
   - puck
   - Puck
+  - intelligence
 14:
   - pudge
   - Pudge
+  - strength
 15:
   - razor
   - Razor
+  - agility
 16:
   - sand_king
   - Sand King
+  - strength
 17:
   - storm_spirit
   - Storm Spirit
+  - intelligence
 18:
   - sven
   - Sven
+  - strength
 19:
   - tiny
   - Tiny
+  - strength
 20:
   - vengefulspirit
   - Vengeful Spirit
+  - agility
 21:
   - windrunner
   - Windranger
+  - intelligence
 22:
   - zuus
   - Zeus
+  - intelligence
 23:
   - kunkka
   - Kunkka
+  - strength
 25:
   - lina
   - Lina
+  - intelligence
 26:
   - lion
   - Lion
+  - intelligence
 27:
   - shadow_shaman
   - Shadow Shaman
+  - intelligence
 28:
   - slardar
   - Slardar
+  - strength
 29:
   - tidehunter
   - Tidehunter
+  - strength
 30:
   - witch_doctor
   - Witch Doctor
+  - intelligence
 31:
   - lich
   - Lich
+  - intelligence
 32:
   - riki
   - Riki
+  - agility
 33:
   - enigma
   - Enigma
+  - intelligence
 34:
   - tinker
   - Tinker
+  - intelligence
 35:
   - sniper
   - Sniper
+  - agility
 36:
   - necrolyte
   - Necrophos
+  - intelligence
 37:
   - warlock
   - Warlock
+  - intelligence
 38:
   - beastmaster
   - Beastmaster
+  - strength
 39:
   - queenofpain
   - Queen of Pain
+  - intelligence
 40:
   - venomancer
   - Venomancer
+  - agility
 41:
   - faceless_void
   - Faceless Void
+  - agility
 42:
   - skeleton_king
   - Wraith King
+  - strength
 43:
   - death_prophet
   - Death Prophet
+  - intelligence
 44:
   - phantom_assassin
   - Phantom Assassin
+  - agility
 45:
   - pugna
   - Pugna
+  - intelligence
 46:
   - templar_assassin
   - Templar Assassin
+  - agility
 47:
   - viper
   - Viper
+  - agility
 48:
   - luna
   - Luna
+  - agility
 49:
   - dragon_knight
   - Dragon Knight
+  - strength
 50:
   - dazzle
   - Dazzle
+  - intelligence
 51:
   - rattletrap
   - Clockwerk
+  - strength
 52:
   - leshrac
   - Leshrac
+  - intelligence
 53:
   - furion
   - Nature's Prophet
+  - intelligence
 54:
   - life_stealer
   - Lifestealer
+  - strength
 55:
   - dark_seer
   - Dark Seer
+  - intelligence
 56:
   - clinkz
   - Clinkz
+  - agility
 57:
   - omniknight
   - Omniknight
+  - strength
 58:
   - enchantress
   - Enchantress
+  - intelligence
 59:
   - huskar
   - Huskar
+  - strength
 60:
   - night_stalker
   - Night Stalker
+  - strength
 61:
   - broodmother
   - Broodmother
+  - agility
 62:
   - bounty_hunter
   - Bounty Hunter
+  - agility
 63:
   - weaver
   - Weaver
+  - agility
 64:
   - jakiro
   - Jakiro
+  - intelligence
 65:
   - batrider
   - Batrider
+  - intelligence
 66:
   - chen
   - Chen
+  - intelligence
 67:
   - spectre
   - Spectre
+  - agility
 68:
   - ancient_apparition
   - Ancient Apparition
+  - intelligence
 69:
   - doom_bringer
   - Doom
+  - strength
 70:
   - ursa
   - Ursa
+  - agility
 71:
   - spirit_breaker
   - Spirit Breaker
+  - strength
 72:
   - gyrocopter
   - Gyrocopter
+  - agility
 73:
   - alchemist
   - Alchemist
+  - strength
 74:
   - invoker
   - Invoker
+  - intelligence
 75:
   - silencer
   - Silencer
+  - intelligence
 76:
   - obsidian_destroyer
   - Outworld Devourer
+  - intelligence
 77:
   - lycan
   - Lycan
+  - strength
 78:
   - brewmaster
   - Brewmaster
+  - strength
 79:
   - shadow_demon
   - Shadow Demon
+  - intelligence
 80:
   - lone_druid
   - Lone Druid
+  - agility
 81:
   - chaos_knight
   - Chaos Knight
+  - strength
 82:
   - meepo
   - Meepo
+  - agility
 83:
   - treant
   - Treant Protector
+  - strength
 84:
   - ogre_magi
   - Ogre Magi
+  - intelligence
 85:
   - undying
   - Undying
+  - strength
 86:
   - rubick
   - Rubick
+  - intelligence
 87:
   - disruptor
   - Disruptor
+  - intelligence
 88:
   - nyx_assassin
   - Nyx Assassin
+  - agility
 89:
   - naga_siren
   - Naga Siren
+  - agility
 90:
   - keeper_of_the_light
   - Keeper of the Light
+  - intelligence
 91:
   - wisp
   - Io
+  - strength
 92:
   - visage
   - Visage
+  - intelligence
 93:
   - slark
   - Slark
+  - agility
 94:
   - medusa
   - Medusa
+  - agility
 95:
   - troll_warlord
   - Troll Warlord
+  - agility
 96:
   - centaur
   - Centaur Warrunner
+  - strength
 97:
   - magnataur
   - Magnus
+  - strength
 98:
   - shredder
   - Timbersaw
+  - strength
 99:
   - bristleback
   - Bristleback
+  - strength
 100:
   - tusk
   - Tusk
+  - strength
 101:
   - skywrath_mage
   - Skywrath Mage
+  - intelligence
 102:
   - abaddon
   - Abaddon
+  - strength
 103:
   - elder_titan
   - Elder Titan
+  - strength
 104:
   - legion_commander
   - Legion Commander
+  - strength
 105:
   - techies
   - Techies
+  - intelligence
 106:
   - ember_spirit
   - Ember Spirit
+  - agility
 107:
   - earth_spirit
   - Earth Spirit
+  - strength
 108:
   - abyssal_underlord
   - Underlord
+  - strength
 109:
   - terrorblade
   - Terrorblade
+  - agility
 110:
   - phoenix
   - Phoenix
+  - strength
 111:
   - oracle
   - Oracle
+  - intelligence
 112:
   - winter_wyvern
   - Winter Wyvern
+  - intelligence
 113:
   - arc_warden
   - Arc Warden
+  - agility
 114:
   - monkey_king
   - Monkey King
+  - agility
 119:
   - dark_willow
   - Dark Willow
+  - intelligence
 120:
   - pangolier
   - Pangolier
+  - agility
