@@ -758,20 +758,20 @@
   - glimmer_cape
   - "Glimmer Cape"
 255:
-  - recipe_combo_breaker
-  - "Recipe Combo Breaker"
+  - recipe_aeon_disk
+  - "Recipe Aeon Disk"
 256:
-  - combo_breaker
-  - "Combo Breaker"
+  - aeon_disk
+  - "Aeon Disk"
 257:
   - tome_of_knowledge
   - "Tome of Knowledge"
 258:
-  - recipe_trident
-  - "Recipe Trident"
+  - recipe_kaya
+  - "Recipe Kaya"
 259:
-  - trident
-  - "Trident"
+  - kaya
+  - "Kaya"
 260:
   - refresher_shard
   - "Refresher Shard"
