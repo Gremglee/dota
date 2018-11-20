@@ -775,6 +775,9 @@
 260:
   - refresher_shard
   - "Refresher Shard"
+261
+  - crown
+  - "Crown"
 262:
   - recipe_hurricane_pike
   - "Recipe: Hurricane Pike"
@@ -793,6 +796,27 @@
 267:
   - spirit_vessel
   - "Spirit Vessel"
+268:
+  - recipe_holy_locket
+  - "Recipe Holy Locket"
+269:
+  - holy_locket
+  - "Holy Locket"
+272:
+  - recipe_kaya_and_sange
+  - "Repice Kaya and Sange"
+273:
+  - kaya_and_sange
+  - "Kaya and Sange"
+274:
+  - recipe_yasha_and_kaya
+  - "Recipe Yasha and Kaya"
+277:
+  - yasha_and_kaya
+  - "Yasha and Kaya"
+279:
+  - ring_of_tarrasque
+  - "Ring of Tarrasque"
 1000:
   - halloween_candy_corn
   - "Greevil Taffy"
