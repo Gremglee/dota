@@ -11,6 +11,12 @@ RSpec.describe Dota::API::Item do
     expect(item.id).to eq 1
   end
 
+  context "empty item" do
+    it "returns Empty name" do
+      expect(described_class.new(0).name).to eq "Empty"
+    end
+  end
+
   specify "#name" do
     expect(item.name).to eq "Blink Dagger"
   end
