@@ -3,7 +3,7 @@ module Dota
     class Item
       include Utilities::JsonMapped
 
-      attr_reader :id, :name, :internal_name
+      attr_reader :id, :name, :internal_name, :cost
 
       def initialize(id)
         item_hash = mapping.to_a.select{ |i| i[1]["id"] == id }
