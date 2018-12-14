@@ -5,6 +5,7 @@ require 'dota/configuration'
 require 'dota/version'
 
 require 'dota/utils/mapped'
+require 'dota/utils/json_mapped'
 require 'dota/utils/inspectable'
 
 require 'dota/api/entity'

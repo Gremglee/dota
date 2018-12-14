@@ -1,14 +1,16 @@
 module Dota
   module API
     class Item
-      include Utilities::Mapped
+      require 'pry'
+      include Utilities::JsonMapped
 
-      attr_reader :id, :name
+      attr_reader :id, :name, :internal_name
 
       def initialize(id)
-        @id = id
-        @internal_name = mapping[id][0]
-        @name = mapping[id][1]
+        @internal_name = mapping.to_a.select{ |i| i[1]["id"] == id }[0][0]
+        @id = mapping[@internal_name]["id"]
+        @name = mapping[@internal_name]["dname"]
+        @price = mapping[@internal_name]["cost"]
       end
 
       # Possible values for type:
@@ -18,10 +20,6 @@ module Dota
         filename = "#{internal_name.sub(/\Arecipe_/, '')}_#{type}.png"
         "http://cdn.dota2.com/apps/dota2/images/items/#{filename}"
       end
-
-      private
-
-      attr_reader :internal_name
     end
   end
 end
