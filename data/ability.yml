@@ -3043,9 +3043,31 @@
 6331:
   - special_bonus_unique_enchantress_1
   - "+8s Nature's Attendants Duration"
+6495:
+  - mars_gods_rebuke
+  - "Mars Gods Rebuke"
 6670:
   - special_bonus_unique_nevermore_1
   - "+2 Damage Per Soul"
+6582:
+  - mars_bulwark
+  - "Mars Bulwark"
+6583:
+  - mars_spear
+  - "Mars Spear"
+6584:
+  - special_bonus_unique_mars_spear_stun_duration
+6598:
+  - mars_arena_of_blood
+  - "Mars Arena of Blood"
+6756:
+  - special_bonus_unique_mars_gods_rebuke_extra_crit
+6759:
+  - special_bonus_unique_mars_spear_bonus_damage
+6766:
+  - special_bonus_unique_mars_arena_of_blood_hp_regen
+7401:
+  - special_bonus_spell_amplify_14
 9990:
   - roshan_halloween_candy
 9991:
