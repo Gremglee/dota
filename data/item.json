@@ -5746,6 +5746,7 @@
     "img": "/apps/dota2/images/items/recipe_lg.png?3",
     "cost": 300,
     "notes": "",
+    "dname": "Recipe: Solar Crest",
     "attrib": [],
     "mc": false,
     "cd": false,
