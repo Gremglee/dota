@@ -3,7 +3,7 @@ module Dota
     class Hero
       include Utilities::Mapped
 
-      attr_reader :id, :name, :type
+      attr_reader :id, :name, :type, :params
 
       def self.find(id)
         hero = mapping[id]
@@ -15,6 +15,8 @@ module Dota
         @internal_name = mapping[id][0]
         @name = mapping[id][1]
         @type = mapping[id][2]
+        # loads odota json with all heroes attributes
+        @params = params_mapping[id.to_s]
       end
 
       def image_url(type = :full)
@@ -28,8 +30,15 @@ module Dota
       end
 
       private
-
       attr_reader :internal_name
+
+      def params_mapping
+        begin
+          filename = "hero_attributes.json"
+          path = File.join(Dota.root, "data", filename)
+          YAML.load_file(path).freeze
+        end
+      end
     end
   end
 end
