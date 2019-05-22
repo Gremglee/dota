@@ -11,8 +11,10 @@
   - "Auto Deliver"
 5001:
   - default_attack
+  - "Default Attack"
 5002:
   - attribute_bonus
+  - "Attribute Bonus"
 5003:
   - antimage_mana_break
   - "Mana Break"
