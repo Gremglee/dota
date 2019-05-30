@@ -11,10 +11,8 @@
   - "Auto Deliver"
 5001:
   - default_attack
-  - "Default Attack"
 5002:
   - attribute_bonus
-  - "Attribute Bonus"
 5003:
   - antimage_mana_break
   - "Mana Break"
@@ -2436,7 +2434,7 @@
   - "-6s Storm Hammer Cooldown"
 6047:
   - special_bonus_unique_dark_seer
-  - "+150 Ion Shell Damage"
+  - "+100 Ion Shell Damage"
 6048:
   - special_bonus_strength_6
   - "+6 Strength"
@@ -2457,7 +2455,7 @@
   - "Magic Immunity for Chaotic Offering Golems"
 6054:
   - special_bonus_unique_warlock_2
-  - "+20 Chaotic Offering Golems Armor"
+  - "+25 Chaotic Offering Golems Armor"
 6055:
   - special_bonus_spell_amplify_15
   - "+15% Spell Amplification"
@@ -2499,7 +2497,7 @@
   - "+175 Mana"
 6068:
   - special_bonus_unique_bane_1
-  - "+100 Enfeeble Attack Speed Reduction"
+  - "+125 Enfeeble Attack Speed Reduction"
 6069:
   - special_bonus_unique_bane_2
   - "+250 Brain Sap Damage/Heal"
@@ -2595,10 +2593,10 @@
   - "+120 Battle Hunger DPS"
 6103:
   - special_bonus_unique_beastmaster
-  - "+65 Wild Axes Damage"
+  - "+75 Wild Axes Damage"
 6104:
   - special_bonus_unique_clinkz_1
-  - "+30 Searing Arrows Damage"
+  - "+20 Searing Arrows Damage"
 6105:
   - special_bonus_unique_juggernaut
   - "+1s Blade Fury"
@@ -3215,7 +3213,7 @@
   - "+600 Rupture Cast Range"
 6358:
   - special_bonus_unique_bounty_hunter_2
-  - "+75 Shuriken Toss Damage"
+  - "+125 Shuriken Toss Damage"
 6359:
   - special_bonus_unique_brewmaster_2
   - "-65s Primal Split Cooldown"
@@ -3245,7 +3243,7 @@
   - "-3s Crypt Swarm Cooldown"
 6368:
   - special_bonus_unique_disruptor_2
-  - "-3s Kinetic Field Cooldown"
+  - "-4s Kinetic Field Cooldown"
 6369:
   - special_bonus_unique_doom_3
   - "+150 Devour Bonus Gold"
@@ -3473,13 +3471,13 @@
   - "+3s Thunder Clap Slow"
 6517:
   - special_bonus_unique_beastmaster_2
-  - "+50 Boar Damage"
+  - "+40 Boar Damage"
 6518:
   - special_bonus_unique_zeus_3
   - "+0.5s Lightning Bolt Ministun"
 6519:
   - special_bonus_unique_lycan_3
-  - "+8 Feral HP Regen"
+  - "+10 Feral HP Regen"
 6520:
   - special_bonus_unique_crystal_maiden_3
   - "+60 Freezing Field Damage"
@@ -3512,7 +3510,7 @@
   - "+50 Leech Seed Damage/Heal"
 6532:
   - special_bonus_unique_venomancer_2
-  - "+8% Poison Sting Slow"
+  - "+12% Poison Sting Slow"
 6534:
   - special_bonus_unique_ancient_apparition_4
   - "+8% Ice Vortex Slow/Resistance"
@@ -3605,7 +3603,7 @@
   - "+200 Finger of Death Damage"
 6601:
   - special_bonus_unique_abaddon_2
-  - "+75 Mist Coil Heal/Damage"
+  - "+60 Mist Coil Heal/Damage"
 6602:
   - special_bonus_unique_abaddon_3
   - "+60 Curse of Avernus Attack Speed"
@@ -3650,7 +3648,7 @@
   - "+30 Warpath Damage Per Stack"
 6616:
   - special_bonus_unique_centaur_3
-  - "+70 Retaliate Damage"
+  - "+80 Retaliate Damage"
 6617:
   - special_bonus_unique_centaur_4
   - "+50% Double Edge Strength Damage"
@@ -3737,7 +3735,7 @@
   - "Cataclysm"
 6657:
   - special_bonus_unique_invoker_5
-  - "+35 Alacrity Damage/Speed"
+  - "+45 Alacrity Damage/Speed"
 6659:
   - special_bonus_unique_wisp_3
   - "+400 Spirits Max Range"
@@ -3800,7 +3798,7 @@
   - "+1000 Mana"
 6687:
   - special_bonus_unique_medusa_3
-  - "+30% Mystic Snake Mana Steal"
+  - "+25% Mystic Snake Mana Steal"
 6689:
   - special_bonus_unique_meepo_2
   - "+30 Poof Damage"
@@ -3848,7 +3846,7 @@
   - "+90 Movement Speed"
 6707:
   - special_bonus_unique_ogre_magi_2
-  - "+275 Fireblast Damage"
+  - "+300 Fireblast Damage"
 6708:
   - special_bonus_strength_30
   - "+30 Strength"
@@ -3914,7 +3912,7 @@
   - "+5% Ice Blast Kill Threshold"
 6811:
   - special_bonus_unique_invoker_6
-  - "+30 Chaos Meteor Contact Damage"
+  - "+40 Chaos Meteor Contact Damage"
 6812:
   - special_bonus_unique_disruptor_5
   - "+4s Kinetic Field Duration"
@@ -4178,7 +4176,7 @@
   - "+30 Kraken Shell Damage Block"
 6948:
   - special_bonus_unique_timbersaw_2
-  - "+5 Reactive Armor Stacks"
+  - "+8 Reactive Armor Stacks"
 6949:
   - special_bonus_unique_timbersaw_3
   - "+1400 Timber Chain Range"
@@ -4211,7 +4209,7 @@
   - "+300 Snowball Speed"
 6962:
   - special_bonus_unique_tusk_4
-  - "12% Chance Walrus Punch"
+  - "15% Chance Walrus Punch"
 6963:
   - special_bonus_unique_tusk_5
   - "-6s Ice Shards Cooldown"
@@ -4456,7 +4454,7 @@
   - "Global Living Armor"
 7104:
   - special_bonus_unique_arc_warden_3
-  - "-1.5s Spark Wraith Cooldown"
+  - "-2s Spark Wraith Cooldown"
 7105:
   - special_bonus_unique_arc_warden_4
   - "Global Flux"
@@ -4534,7 +4532,7 @@
   - "+0.5s Homing Missile Stun Duration"
 7142:
   - special_bonus_unique_pudge_4
-  - "+12% Rot Slow"
+  - "+16% Rot Slow"
 7143:
   - special_bonus_unique_huskar_5
   - "Burning Spears Pure Damage"
@@ -4663,7 +4661,7 @@
   - "+12 Agility"
 7388:
   - special_bonus_unique_faceless_void_5
-  - "-1s Time Walk"
+  - "-1.5s Time Walk"
 7389:
   - special_bonus_unique_medusa_5
   - "-4s Mystic Snake Cooldown"
@@ -4685,6 +4683,9 @@
 7401:
   - special_bonus_spell_amplify_14
   - "+14% Spell Amplification"
+7670:
+  - special_bonus_cleave_175
+  - "+175% Cleave"
 7804:
   - seasonal_throw_snowball
   - "Throw Snowball"
@@ -4719,9 +4720,81 @@
   - seasonal_summon_cny_tree
 7820:
   - seasonal_firecrackers
+7821:
+  - seasonal_summon_ti9_balloon
+  - "Summon Sky Snake"
+7822:
+  - seasonal_ti9_banner
+  - "Battle Standard"
+7823:
+  - seasonal_ti9_instruments
+  - "Drums of War"
+7824:
+  - seasonal_ti9_shovel
+  - "Trusty Shovel"
+7825:
+  - seasonal_ti9_monkey
+  - "Summon Monkey"
+7850:
+  - tiny_tree_channel
+  - "Tree Volley"
+7851:
+  - spectre_haunt_single
+  - "Shadow Step"
+7852:
+  - grimstroke_scepter
+  - "Dark Artistry"
+7853:
+  - templar_assassin_trap_teleport
+  - "Psionic Projection"
+7854:
+  - arc_warden_scepter
+  - "Rune Forge"
+7855:
+  - clinkz_scepter
+7859:
+  - special_bonus_unique_dark_willow_3
+  - "-12s Bramble Maze CD"
+7861:
+  - special_bonus_unique_terrorblade_4
+  - "+30% Reflection Illusion Damage"
+7864:
+  - slardar_scepter
+7865:
+  - troll_warlord_scepter
+7869:
+  - special_bonus_unique_chen_5
+  - "+10 Divine Favor Damage"
+7871:
+  - special_bonus_unique_slardar_4
+  - "-4.5s Slithereen Crush Cooldown"
+7873:
+  - special_bonus_mp_regen_250
+  - "+2.5 Mana Regen"
+7878:
+  - special_bonus_unique_clinkz_4
+  - "Burning Army Truestrike"
+7888:
+  - special_bonus_unique_windranger_7
+  - "-60s Focus Fire Cooldown"
+7889:
+  - special_bonus_unique_windranger_8
+  - "-20% Focus Fire Damage Reduction"
+7890:
+  - special_bonus_unique_windranger_9
+  - "-2s Shackleshot Cooldown"
+7891:
+  - special_bonus_unique_tusk_6
+  - "-7s Snowball Cooldown"
+7892:
+  - special_bonus_unique_sniper_6
+  - "+125 Take Aim Range"
 7936:
   - special_bonus_unique_storm_spirit_6
   - "+30 Overload Damage"
+7968:
+  - high_five
+  - "High Five"
 8000:
   - grimstroke_dark_artistry
   - "Stroke of Fate"
@@ -4796,6 +4869,3 @@
 10002:
   - roshan_halloween_fireball
   - "Fireball "
-99999:
-  - base_talent_moremmr
-  - "Hero Talent"
