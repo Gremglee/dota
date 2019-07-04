@@ -29,6 +29,10 @@ module Dota
         "http://cdn.dota2.com/apps/dota2/images/heroes/#{internal_name}_#{type}.#{type == :vert ? 'jpg' : 'png'}"
       end
 
+      def self.all
+        @all ||= mapping.to_a.map { |id, item_json| new(id) }
+      end
+
       private
       attr_reader :internal_name
     end

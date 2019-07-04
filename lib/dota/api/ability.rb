@@ -27,6 +27,10 @@ module Dota
         end
       end
 
+      def self.all
+        @all ||= mapping.to_a.map { |id, item_json| new(id) }
+      end
+
       private
 
       attr_reader :internal_name
