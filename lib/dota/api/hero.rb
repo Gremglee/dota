@@ -1,22 +1,22 @@
 module Dota
   module API
     class Hero
-      include Utilities::Mapped
+      include Utilities::JsonMapped
 
-      attr_reader :id, :name, :type, :params
+      attr_reader :id, :name, :type, :params, :abilities
 
       def self.find(id)
-        hero = mapping[id]
+        hero = mapping[id.to_s]
         hero ? new(id) : Dota::API::MissingHero.new(id)
       end
 
       def initialize(id)
-        @id = id
-        @internal_name = mapping[id][0]
-        @name = mapping[id][1]
-        @type = mapping[id][2]
-        # loads odota json with all heroes attributes
-        @params = params_mapping[id.to_s]
+        @id = id.to_s
+        @internal_name = mapping[@id]['name']
+        @name = mapping[@id]['human_name']
+        @type = mapping[@id]['primary_attribute']
+        @abilities = mapping[@id]['abilities']
+        @params = mapping[@id]['params']
       end
 
       def image_url(type = :full)
@@ -31,14 +31,6 @@ module Dota
 
       private
       attr_reader :internal_name
-
-      def params_mapping
-        begin
-          filename = "hero_attributes.json"
-          path = File.join(Dota.root, "data", filename)
-          YAML.load_file(path).freeze
-        end
-      end
     end
   end
 end

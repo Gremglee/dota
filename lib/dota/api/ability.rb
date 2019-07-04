@@ -1,7 +1,7 @@
 module Dota
   module API
     class Ability
-      include Utilities::Mapped
+      include Utilities::JsonMapped
 
       attr_reader :id, :name, :full_name
 
@@ -9,8 +9,10 @@ module Dota
 
       def initialize(id)
         @id = id
-        @internal_name = mapping.dig(id, 0) || "unknown_ability_#{id}"
-        @name = mapping.dig(id, 1) || @internal_name
+        sid = id.to_s
+        @internal_name = mapping[sid]['name'] || "unknown_ability_#{sid}"
+        @name = mapping[sid]['human_name'] || @internal_name
+        @manacost = mapping[sid]['manacost']
       end
 
       def image_url(type = :lg)
