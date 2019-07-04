@@ -2,7 +2,7 @@
   "5001": {
     "name": "default_attack",
     "manacost": null,
-    "human_name": "Attacks"
+    "human_name": "Default Attack"
   },
   "5003": {
     "name": "antimage_mana_break",
