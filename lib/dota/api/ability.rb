@@ -3,7 +3,7 @@ module Dota
     class Ability
       include Utilities::JsonMapped
 
-      attr_reader :id, :name, :full_name, :manacost, :behavior, :cooldown
+      attr_reader :id, :name, :full_name, :manacost, :behavior, :cooldown, :internal_name
 
       alias_method :full_name, :name
 
@@ -32,10 +32,6 @@ module Dota
       def self.all
         @all ||= mapping.to_a.map { |id, item_json| new(id) }
       end
-
-      private
-
-      attr_reader :internal_name
     end
   end
 end

@@ -3,7 +3,7 @@ module Dota
     class Hero
       include Utilities::JsonMapped
 
-      attr_reader :id, :name, :type, :params, :abilities
+      attr_reader :id, :name, :type, :params, :abilities, :internal_name
 
       def self.find(id)
         hero = mapping[id.to_s]
@@ -32,9 +32,6 @@ module Dota
       def self.all
         @all ||= mapping.to_a.map { |id, item_json| new(id) }
       end
-
-      private
-      attr_reader :internal_name
     end
   end
 end
