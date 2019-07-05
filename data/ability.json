@@ -1,4 +1,11 @@
 {
+  "99999": {
+    "name": "base_talent_moremmr",
+    "manacost": null,
+    "cooldown": null,
+    "behavior": null,
+    "human_name": "Hero Talent"
+  },
   "5001": {
     "name": "default_attack",
     "manacost": null,

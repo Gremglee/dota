@@ -154,6 +154,14 @@ temp_hash = ability_data.map do |name, aparams|
   [params['ID'], attrs]
 end.to_h;nil
 
+temp_hash['99999'] = {
+  name: 'base_talent_moremmr',
+  human_name: 'Hero Talent',
+  manacost: nil,
+  cooldown: nil,
+  behavior: nil
+}
+
 File.open('data/ability.json', 'w') do |f|
   f.write(JSON.pretty_generate(temp_hash))
 end
