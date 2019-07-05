@@ -107,11 +107,48 @@ def t(key)
   @i18n_data["DOTA_Tooltip_ability_#{key}"]
 end
 
+@extra_strings = {
+  'DOTA_ABILITY_BEHAVIOR_NONE' => "None",
+  'DOTA_ABILITY_BEHAVIOR_PASSIVE' => "Passive",
+  'DOTA_ABILITY_BEHAVIOR_UNIT_TARGET' => "Unit Target",
+  'DOTA_ABILITY_BEHAVIOR_CHANNELLED' => "Channeled",
+  'DOTA_ABILITY_BEHAVIOR_POINT' => "Point Target",
+  'DOTA_ABILITY_BEHAVIOR_ROOT_DISABLES' => "Root",
+  'DOTA_ABILITY_BEHAVIOR_AOE' => "AOE",
+  'DOTA_ABILITY_BEHAVIOR_NO_TARGET' => "No Target",
+  'DOTA_ABILITY_BEHAVIOR_AUTOCAST' => "Autocast",
+  'DOTA_ABILITY_BEHAVIOR_ATTACK' => "Attack Modifier",
+  'DOTA_ABILITY_BEHAVIOR_IMMEDIATE' => "Instant Cast",
+  'DAMAGE_TYPE_PHYSICAL' => "Physical",
+  'DAMAGE_TYPE_MAGICAL' => "Magical",
+  'DAMAGE_TYPE_PURE' => "Pure",
+  'SPELL_IMMUNITY_ENEMIES_YES' => "Yes",
+  'SPELL_IMMUNITY_ENEMIES_NO' => "No",
+  'DOTA_ABILITY_BEHAVIOR_HIDDEN' => "Hidden"
+}
+
+@ignore_strings = [
+  "DOTA_ABILITY_BEHAVIOR_ROOT_DISABLES",
+  "DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK",
+  "DOTA_ABILITY_BEHAVIOR_DONT_RESUME_MOVEMENT",
+  "DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING",
+  "DOTA_ABILITY_BEHAVIOR_TOGGLE",
+  "DOTA_ABILITY_BEHAVIOR_IGNORE_PSEUDO_QUEUE"
+]
+
+def format_behavior(str)
+  str.split(' | ').map { |b| @extra_strings[b] unless @ignore_strings.include?(b) }.compact
+rescue
+  nil
+end
+
 temp_hash = ability_data.map do |name, aparams|
   params = aparams.to_h
   attrs = {
     name: name,
     manacost: (params['AbilityManaCost'].split(' ').map(&:to_i) rescue nil),
+    cooldown: (params['AbilityCooldown'].split(' ').map(&:to_i) rescue nil),
+    behavior: format_behavior(params['AbilityBehavior']),
     human_name: t(name)
   }
   [params['ID'], attrs]

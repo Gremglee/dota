@@ -3,7 +3,7 @@ module Dota
     class Ability
       include Utilities::JsonMapped
 
-      attr_reader :id, :name, :full_name
+      attr_reader :id, :name, :full_name, :manacost, :behavior, :cooldown
 
       alias_method :full_name, :name
 
@@ -13,6 +13,8 @@ module Dota
         @internal_name = mapping[sid]['name'] || "unknown_ability_#{sid}"
         @name = mapping[sid]['human_name'] || @internal_name
         @manacost = mapping[sid]['manacost']
+        @cooldown = mapping[sid]['cooldown']
+        @behavior = mapping[sid]['behavior']
       end
 
       def image_url(type = :lg)
