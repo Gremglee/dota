@@ -35,6 +35,14 @@ And then execute:
 Or install it in your local repository:
 
     $ gem install dota -v 0.0.21
+    
+## Update data
+
+To update abilities, items and heroes with actual data from [d2vpkg repo](https://github.com/dotabuff/d2vpkr) run:
+
+```
+bundle exec ruby build_data.rb
+```
 
 ## Usage
 
