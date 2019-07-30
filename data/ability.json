@@ -1,11 +1,4 @@
 {
-  "99999": {
-    "name": "base_talent_moremmr",
-    "manacost": null,
-    "cooldown": null,
-    "behavior": null,
-    "human_name": "Hero Talent"
-  },
   "5001": {
     "name": "default_attack",
     "manacost": null,
@@ -264,9 +257,6 @@
       100
     ],
     "cooldown": [
-      18,
-      16,
-      14,
       12
     ],
     "behavior": [
@@ -731,7 +721,10 @@
       100
     ],
     "cooldown": [
-      17
+      18,
+      17,
+      16,
+      15
     ],
     "behavior": [
       "Point Target"
@@ -982,9 +975,9 @@
   "5065": {
     "name": "phantom_lancer_spirit_lance",
     "manacost": [
-      125,
+      110,
+      120,
       130,
-      135,
       140
     ],
     "cooldown": [
@@ -1133,6 +1126,9 @@
   "5075": {
     "name": "pudge_meat_hook",
     "manacost": [
+      125,
+      130,
+      135,
       140
     ],
     "cooldown": [
@@ -1336,10 +1332,10 @@
   "5088": {
     "name": "skeleton_king_mortal_strike",
     "manacost": [
-      30,
-      45,
+      50,
       60,
-      75
+      70,
+      80
     ],
     "cooldown": [
       50
@@ -1495,7 +1491,7 @@
       200
     ],
     "cooldown": [
-      100
+      110
     ],
     "behavior": [
       "No Target"
@@ -1765,8 +1761,8 @@
   "5113": {
     "name": "zuus_thundergods_wrath",
     "manacost": [
-      225,
-      325,
+      250,
+      350,
       450
     ],
     "cooldown": [
@@ -1906,10 +1902,10 @@
   "5122": {
     "name": "vengefulspirit_magic_missile",
     "manacost": [
+      100,
       110,
       120,
-      130,
-      140
+      130
     ],
     "cooldown": [
       9
@@ -2142,10 +2138,10 @@
       150
     ],
     "cooldown": [
-      30,
-      27,
       24,
-      21
+      22,
+      20,
+      18
     ],
     "behavior": [
       "Unit Target",
@@ -4072,9 +4068,9 @@
       130
     ],
     "cooldown": [
-      14,
+      17,
+      15,
       13,
-      12,
       11
     ],
     "behavior": [
@@ -4092,9 +4088,9 @@
       110
     ],
     "cooldown": [
-      17,
-      16,
-      15,
+      26,
+      22,
+      18,
       14
     ],
     "behavior": [
@@ -4432,7 +4428,7 @@
   "5285": {
     "name": "bounty_hunter_shuriken_toss",
     "manacost": [
-      150
+      135
     ],
     "cooldown": [
       8
@@ -4729,9 +4725,9 @@
       130
     ],
     "cooldown": [
-      90,
+      120,
+      100,
       80,
-      70,
       60
     ],
     "behavior": [
@@ -5018,7 +5014,7 @@
   "5348": {
     "name": "ancient_apparition_ice_blast",
     "manacost": [
-      150
+      175
     ],
     "cooldown": [
       40
@@ -5052,6 +5048,9 @@
       100
     ],
     "cooldown": [
+      17,
+      15,
+      13,
       11
     ],
     "behavior": [
@@ -5062,10 +5061,10 @@
   "7301": {
     "name": "spirit_breaker_bulldoze",
     "manacost": [
-      25,
       30,
-      35,
-      40
+      40,
+      50,
+      60
     ],
     "cooldown": [
       22
@@ -5649,10 +5648,10 @@
       200
     ],
     "cooldown": [
-      22,
-      18,
-      14,
-      10
+      24,
+      20,
+      16,
+      12
     ],
     "behavior": [
       "Unit Target"
@@ -5685,9 +5684,9 @@
   "5394": {
     "name": "obsidian_destroyer_sanity_eclipse",
     "manacost": [
-      175,
-      250,
-      325
+      200,
+      325,
+      450
     ],
     "cooldown": [
       160
@@ -6154,10 +6153,10 @@
   "5422": {
     "name": "shadow_demon_soul_catcher",
     "manacost": [
-      50,
-      70,
-      90,
-      110
+      80,
+      100,
+      120,
+      140
     ],
     "cooldown": [
       26,
@@ -6239,9 +6238,9 @@
       50
     ],
     "cooldown": [
-      20,
-      15,
-      10,
+      14,
+      11,
+      8,
       5
     ],
     "behavior": [
@@ -7519,9 +7518,9 @@
       130
     ],
     "cooldown": [
-      13,
-      13,
-      13,
+      22,
+      19,
+      16,
       13
     ],
     "behavior": [
@@ -8070,6 +8069,9 @@
   "5589": {
     "name": "elder_titan_echo_stomp",
     "manacost": [
+      85,
+      90,
+      95,
       100
     ],
     "cooldown": [
@@ -8419,16 +8421,16 @@
   "5614": {
     "name": "abyssal_underlord_pit_of_malice",
     "manacost": [
+      80,
       100,
-      115,
-      130,
-      145
+      120,
+      140
     ],
     "cooldown": [
-      30,
-      26,
       22,
-      18
+      20,
+      18,
+      16
     ],
     "behavior": [
       "Point Target",
@@ -8454,8 +8456,8 @@
     ],
     "cooldown": [
       130,
-      120,
-      110
+      115,
+      100
     ],
     "behavior": [
       "Point Target",
@@ -8974,8 +8976,8 @@
     ],
     "cooldown": [
       100,
-      80,
-      60
+      90,
+      80
     ],
     "behavior": [
       "Point Target",
@@ -11783,6 +11785,15 @@
     ],
     "human_name": "+80 Health Regen"
   },
+  "8018": {
+    "name": "special_bonus_mana_reduction_11",
+    "manacost": null,
+    "cooldown": null,
+    "behavior": [
+      "Passive"
+    ],
+    "human_name": "+11% Manacost/Manaloss Reduction"
+  },
   "5915": {
     "name": "special_bonus_mp_regen_1",
     "manacost": null,
@@ -12061,6 +12072,15 @@
       "Passive"
     ],
     "human_name": "30% Lifesteal"
+  },
+  "8011": {
+    "name": "special_bonus_lifesteal_35",
+    "manacost": null,
+    "cooldown": null,
+    "behavior": [
+      "Passive"
+    ],
+    "human_name": "35% Lifesteal"
   },
   "7896": {
     "name": "special_bonus_lifesteal_40",
@@ -13079,6 +13099,15 @@
     ],
     "human_name": "+150 Damage"
   },
+  "8017": {
+    "name": "special_bonus_attack_damage_160",
+    "manacost": null,
+    "cooldown": null,
+    "behavior": [
+      "Passive"
+    ],
+    "human_name": "+160 Damage"
+  },
   "6556": {
     "name": "special_bonus_attack_damage_250",
     "manacost": null,
@@ -13654,6 +13683,15 @@
       "Passive"
     ],
     "human_name": "+180 Gold/Min"
+  },
+  "8005": {
+    "name": "special_bonus_gold_income_35",
+    "manacost": null,
+    "cooldown": null,
+    "behavior": [
+      "Passive"
+    ],
+    "human_name": "+210 Gold/Min"
   },
   "6301": {
     "name": "special_bonus_gold_income_40",
@@ -15507,7 +15545,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "+35 Skeletons Attack Damage"
+    "human_name": "+30 Skeletons Attack Damage"
   },
   "7107": {
     "name": "special_bonus_unique_wraith_king_7",
@@ -15858,7 +15896,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "+40 Boar Damage"
+    "human_name": "+35 Boar Damage"
   },
   "6611": {
     "name": "special_bonus_unique_beastmaster_3",
@@ -16038,7 +16076,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "+100 Lucent Beam Damage"
+    "human_name": "+125 Lucent Beam Damage"
   },
   "6127": {
     "name": "special_bonus_unique_luna_2",
@@ -16317,7 +16355,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "+10 Feral HP Regen"
+    "human_name": "+13 Feral HP Regen"
   },
   "6684": {
     "name": "special_bonus_unique_lycan_4",
@@ -16326,7 +16364,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "+16% Feral Impulse Damage"
+    "human_name": "+18% Feral Impulse Damage"
   },
   "6685": {
     "name": "special_bonus_unique_lycan_5",
@@ -16461,7 +16499,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "+1.25s Pounce Leash"
+    "human_name": "+1s Pounce Leash"
   },
   "6892": {
     "name": "special_bonus_unique_slark_2",
@@ -17136,7 +17174,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "+40 Bloodlust AS"
+    "human_name": "+60 Bloodlust AS"
   },
   "6707": {
     "name": "special_bonus_unique_ogre_magi_2",
@@ -17289,7 +17327,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "+700 Blink Strike Cast Range"
+    "human_name": "+600 Blink Strike Cast Range"
   },
   "6866": {
     "name": "special_bonus_unique_riki_4",
@@ -17497,6 +17535,15 @@
       "Passive"
     ],
     "human_name": "+3s Gust Silence Duration"
+  },
+  "8010": {
+    "name": "special_bonus_unique_drow_ranger_5",
+    "manacost": null,
+    "cooldown": null,
+    "behavior": [
+      "Passive"
+    ],
+    "human_name": "+40% Gust Blind"
   },
   "6203": {
     "name": "special_bonus_unique_earth_spirit",
@@ -17865,7 +17912,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "700 AoE Cold Feet"
+    "human_name": "625 AoE Cold Feet"
   },
   "6215": {
     "name": "special_bonus_unique_disruptor",
@@ -19042,5 +19089,12 @@
 
     ],
     "human_name": "Summon Monkey"
+  },
+  "99999": {
+    "name": "base_talent_moremmr",
+    "human_name": "Hero Talent",
+    "manacost": null,
+    "cooldown": null,
+    "behavior": null
   }
 }
