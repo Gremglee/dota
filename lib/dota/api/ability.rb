@@ -10,6 +10,9 @@ module Dota
       def initialize(id)
         @id = id
         sid = id.to_s
+        ab = mapping[sid]
+        ab = {'name' => nil, 'human_name' => nil, 'manacost' => nil, 'cooldown' => nil, 'behavior' => nil} if ab.nil?
+        
         @internal_name = mapping[sid]['name'] || "unknown_ability_#{sid}"
         @name = mapping[sid]['human_name'] || @internal_name
         @manacost = mapping[sid]['manacost']
