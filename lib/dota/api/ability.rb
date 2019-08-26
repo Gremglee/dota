@@ -13,11 +13,11 @@ module Dota
         ab = mapping[sid]
         ab = {'name' => nil, 'human_name' => nil, 'manacost' => nil, 'cooldown' => nil, 'behavior' => nil} if ab.nil?
         
-        @internal_name = mapping[sid]['name'] || "unknown_ability_#{sid}"
-        @name = mapping[sid]['human_name'] || @internal_name
-        @manacost = mapping[sid]['manacost']
-        @cooldown = mapping[sid]['cooldown']
-        @behavior = mapping[sid]['behavior']
+        @internal_name = ab['name'] || "unknown_ability_#{sid}"
+        @name = ab['human_name'] || @internal_name
+        @manacost = ab['manacost']
+        @cooldown = ab['cooldown']
+        @behavior = ab['behavior']
       end
 
       def image_url(type = :lg)
