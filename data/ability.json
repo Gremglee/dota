@@ -734,7 +734,7 @@
   "5049": {
     "name": "mirana_invis",
     "manacost": [
-      75
+      125
     ],
     "cooldown": [
       140,
@@ -830,7 +830,7 @@
     "behavior": [
       "Hidden"
     ],
-    "human_name": null
+    "human_name": "morphling_morph"
   },
   "5055": {
     "name": "morphling_morph_agi",
@@ -1407,7 +1407,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": null
+    "human_name": "death_prophet_witchcraft"
   },
   "5685": {
     "name": "death_prophet_spirit_siphon",
@@ -1680,10 +1680,10 @@
   "7850": {
     "name": "tiny_tree_channel",
     "manacost": [
-      150
+      200
     ],
     "cooldown": [
-      12
+      15
     ],
     "behavior": [
       "Point Target",
@@ -1798,7 +1798,7 @@
       "AOE",
       "Hidden"
     ],
-    "human_name": null
+    "human_name": "slardar_scepter"
   },
   "5115": {
     "name": "slardar_slithereen_crush",
@@ -2607,7 +2607,7 @@
       "Hidden",
       "Instant Cast"
     ],
-    "human_name": null
+    "human_name": "necrolyte_sadist_stop"
   },
   "5161": {
     "name": "necrolyte_reapers_scythe",
@@ -2741,7 +2741,7 @@
     "behavior": [
       "No Target"
     ],
-    "human_name": null
+    "human_name": "beastmaster_call_of_the_wild"
   },
   "7230": {
     "name": "beastmaster_call_of_the_wild_boar",
@@ -2982,7 +2982,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": null
+    "human_name": "faceless_void_backtrack"
   },
   "5184": {
     "name": "faceless_void_time_lock",
@@ -3017,9 +3017,7 @@
       300
     ],
     "cooldown": [
-      140,
-      130,
-      120
+      140
     ],
     "behavior": [
       "AOE",
@@ -3237,8 +3235,7 @@
     ],
     "behavior": [
       "Point Target",
-      "Hidden",
-      "Channeled"
+      "Hidden"
     ],
     "human_name": "Psionic Projection"
   },
@@ -3442,7 +3439,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": null
+    "human_name": "dragon_knight_frost_breath"
   },
   "5233": {
     "name": "dazzle_poison_touch",
@@ -4042,7 +4039,7 @@
       "No Target",
       "Hidden"
     ],
-    "human_name": null
+    "human_name": "clinkz_scepter"
   },
   "5262": {
     "name": "clinkz_death_pact",
@@ -4725,10 +4722,10 @@
       130
     ],
     "cooldown": [
+      140,
       120,
       100,
-      80,
-      60
+      80
     ],
     "behavior": [
       "Unit Target"
@@ -4752,7 +4749,7 @@
     "behavior": [
       "Unit Target"
     ],
-    "human_name": null
+    "human_name": "chen_test_of_faith_teleport"
   },
   "5330": {
     "name": "chen_holy_persuasion",
@@ -5398,7 +5395,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": null
+    "human_name": "invoker_attribute_bonus"
   },
   "5376": {
     "name": "invoker_cold_snap",
@@ -5749,8 +5746,8 @@
       100
     ],
     "cooldown": [
-      130,
-      105,
+      110,
+      95,
       80
     ],
     "behavior": [
@@ -6558,7 +6555,7 @@
       "Passive",
       "Hidden"
     ],
-    "human_name": null
+    "human_name": "undying_tombstone_zombie_aura"
   },
   "5446": {
     "name": "undying_tombstone_zombie_deathstrike",
@@ -6692,7 +6689,7 @@
     "behavior": [
       "Hidden"
     ],
-    "human_name": null
+    "human_name": "rubick_hidden1"
   },
   "5456": {
     "name": "rubick_hidden2",
@@ -6701,7 +6698,7 @@
     "behavior": [
       "Hidden"
     ],
-    "human_name": null
+    "human_name": "rubick_hidden2"
   },
   "5457": {
     "name": "rubick_hidden3",
@@ -6710,7 +6707,7 @@
     "behavior": [
       "Hidden"
     ],
-    "human_name": null
+    "human_name": "rubick_hidden3"
   },
   "5458": {
     "name": "disruptor_thunder_strike",
@@ -7081,10 +7078,7 @@
       175
     ],
     "cooldown": [
-      30,
-      25,
-      20,
-      15
+      14
     ],
     "behavior": [
       "AOE",
@@ -7111,10 +7105,7 @@
       180
     ],
     "cooldown": [
-      10,
-      10,
-      10,
-      10
+      11
     ],
     "behavior": [
       "Point Target",
@@ -7487,7 +7478,7 @@
       "Unit Target",
       "Hidden"
     ],
-    "human_name": null
+    "human_name": "troll_warlord_scepter"
   },
   "5511": {
     "name": "troll_warlord_fervor",
@@ -7721,7 +7712,7 @@
       "AOE",
       "Hidden"
     ],
-    "human_name": "Chakram"
+    "human_name": "Second Chakram"
   },
   "5528": {
     "name": "shredder_return_chakram",
@@ -8115,6 +8106,9 @@
       110
     ],
     "cooldown": [
+      23,
+      21,
+      19,
       17
     ],
     "behavior": [
@@ -8824,7 +8818,7 @@
       "No Target",
       "Instant Cast"
     ],
-    "human_name": null
+    "human_name": "monkey_king_primal_spring_early"
   },
   "5725": {
     "name": "monkey_king_wukongs_command",
@@ -9176,7 +9170,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "Spear Of Mars +200 Damage"
+    "human_name": "Spear Of Mars +200.0 Damage"
   },
   "6756": {
     "name": "special_bonus_unique_mars_gods_rebuke_extra_crit",
@@ -9194,7 +9188,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "+1s Spear Stun"
+    "human_name": "+1.0s Spear Stun"
   },
   "6766": {
     "name": "special_bonus_unique_mars_arena_of_blood_hp_regen",
@@ -9340,7 +9334,7 @@
       "Unit Target",
       "Hidden"
     ],
-    "human_name": null
+    "human_name": "courier_transfer_items_to_other_player"
   },
   "5207": {
     "name": "courier_return_stash_items",
@@ -9360,6 +9354,28 @@
     ],
     "human_name": "Retrieve Items"
   },
+  "7826": {
+    "name": "courier_queue_pickup_from_stash",
+    "manacost": null,
+    "cooldown": null,
+    "behavior": [
+      "Hidden",
+      "Instant Cast",
+      "No Target"
+    ],
+    "human_name": "courier_queue_pickup_from_stash"
+  },
+  "7827": {
+    "name": "courier_dequeue_pickup_from_stash",
+    "manacost": null,
+    "cooldown": null,
+    "behavior": [
+      "Hidden",
+      "Instant Cast",
+      "No Target"
+    ],
+    "human_name": "courier_dequeue_pickup_from_stash"
+  },
   "5676": {
     "name": "courier_take_stash_and_transfer_items",
     "manacost": null,
@@ -9368,7 +9384,7 @@
       "Hidden",
       "No Target"
     ],
-    "human_name": null
+    "human_name": "courier_take_stash_and_transfer_items"
   },
   "5209": {
     "name": "courier_shield",
@@ -9405,7 +9421,7 @@
       "No Target",
       "Instant Cast"
     ],
-    "human_name": null
+    "human_name": "courier_morph"
   },
   "6329": {
     "name": "courier_go_to_enemy_secretshop",
@@ -9415,7 +9431,7 @@
       "Hidden",
       "No Target"
     ],
-    "human_name": null
+    "human_name": "courier_go_to_enemy_secretshop"
   },
   "6333": {
     "name": "courier_go_to_sideshop",
@@ -9425,7 +9441,7 @@
       "Hidden",
       "No Target"
     ],
-    "human_name": null
+    "human_name": "courier_go_to_sideshop"
   },
   "6334": {
     "name": "courier_go_to_sideshop2",
@@ -9435,7 +9451,7 @@
       "Hidden",
       "No Target"
     ],
-    "human_name": null
+    "human_name": "courier_go_to_sideshop2"
   },
   "5213": {
     "name": "roshan_spell_block",
@@ -9446,7 +9462,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": null
+    "human_name": "roshan_spell_block"
   },
   "5618": {
     "name": "roshan_halloween_spell_block",
@@ -9457,7 +9473,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": null
+    "human_name": "roshan_halloween_spell_block"
   },
   "5214": {
     "name": "roshan_bash",
@@ -9466,7 +9482,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": null
+    "human_name": "roshan_bash"
   },
   "5215": {
     "name": "roshan_slam",
@@ -9479,7 +9495,7 @@
     "behavior": [
       "No Target"
     ],
-    "human_name": null
+    "human_name": "roshan_slam"
   },
   "5216": {
     "name": "roshan_inherent_buffs",
@@ -9489,7 +9505,7 @@
       "Hidden",
       "Passive"
     ],
-    "human_name": null
+    "human_name": "roshan_inherent_buffs"
   },
   "5217": {
     "name": "roshan_devotion",
@@ -9499,7 +9515,7 @@
       "Hidden",
       "Passive"
     ],
-    "human_name": null
+    "human_name": "roshan_devotion"
   },
   "5293": {
     "name": "kobold_taskmaster_speed_aura",
@@ -9734,7 +9750,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": null
+    "human_name": "granite_golem_bash"
   },
   "5314": {
     "name": "satyr_trickster_purge",
@@ -9788,7 +9804,7 @@
       "Unit Target",
       "Point Target"
     ],
-    "human_name": null
+    "human_name": "ancient_golem_rockslide"
   },
   "5317": {
     "name": "satyr_hellcaller_unholy_aura",
@@ -9910,7 +9926,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": null
+    "human_name": "spawnlord_master_bash"
   },
   "5327": {
     "name": "blue_dragonspawn_overseer_devotion_aura",
@@ -9964,7 +9980,7 @@
       "Hidden",
       "Passive"
     ],
-    "human_name": null
+    "human_name": "roshan_halloween_candy"
   },
   "9991": {
     "name": "roshan_halloween_angry",
@@ -9974,7 +9990,7 @@
       "Hidden",
       "Passive"
     ],
-    "human_name": null
+    "human_name": "roshan_halloween_angry"
   },
   "9993": {
     "name": "roshan_halloween_wave_of_force",
@@ -9999,7 +10015,7 @@
       "Hidden",
       "Passive"
     ],
-    "human_name": null
+    "human_name": "roshan_halloween_greater_bash"
   },
   "9995": {
     "name": "roshan_halloween_toss",
@@ -10062,7 +10078,7 @@
       "Hidden",
       "Passive"
     ],
-    "human_name": null
+    "human_name": "roshan_halloween_levels"
   },
   "10001": {
     "name": "roshan_halloween_summon",
@@ -10101,7 +10117,7 @@
     "behavior": [
       "Unit Target"
     ],
-    "human_name": "Greevil Missile"
+    "human_name": "greevil_magic_missile"
   },
   "5530": {
     "name": "greevil_cold_snap",
@@ -10114,7 +10130,7 @@
     "behavior": [
       "Unit Target"
     ],
-    "human_name": "Greevil Snap"
+    "human_name": "greevil_cold_snap"
   },
   "5531": {
     "name": "greevil_decrepify",
@@ -10127,7 +10143,7 @@
     "behavior": [
       "Unit Target"
     ],
-    "human_name": "Degreevilfy"
+    "human_name": "greevil_decrepify"
   },
   "5532": {
     "name": "greevil_diabolic_edict",
@@ -10140,7 +10156,7 @@
     "behavior": [
       "No Target"
     ],
-    "human_name": "Greevolic Edict"
+    "human_name": "greevil_diabolic_edict"
   },
   "5533": {
     "name": "greevil_maledict",
@@ -10154,7 +10170,7 @@
       "AOE",
       "Point Target"
     ],
-    "human_name": "Greevildict"
+    "human_name": "greevil_maledict"
   },
   "5534": {
     "name": "greevil_shadow_strike",
@@ -10167,7 +10183,7 @@
     "behavior": [
       "Unit Target"
     ],
-    "human_name": "Shadow Greevil Strike"
+    "human_name": "greevil_shadow_strike"
   },
   "5535": {
     "name": "greevil_laguna_blade",
@@ -10180,7 +10196,7 @@
     "behavior": [
       "Unit Target"
     ],
-    "human_name": "Greevilaguna Blade"
+    "human_name": "greevil_laguna_blade"
   },
   "5546": {
     "name": "greevil_poison_nova",
@@ -10193,7 +10209,7 @@
     "behavior": [
       "No Target"
     ],
-    "human_name": "Greevil Nova"
+    "human_name": "greevil_poison_nova"
   },
   "5547": {
     "name": "greevil_ice_wall",
@@ -10206,7 +10222,7 @@
     "behavior": [
       "No Target"
     ],
-    "human_name": "Greevice Wall"
+    "human_name": "greevil_ice_wall"
   },
   "5552": {
     "name": "greevil_fatal_bonds",
@@ -10219,7 +10235,7 @@
     "behavior": [
       "Unit Target"
     ],
-    "human_name": "Greevil Bonds"
+    "human_name": "greevil_fatal_bonds"
   },
   "5553": {
     "name": "greevil_blade_fury",
@@ -10233,7 +10249,7 @@
       "No Target",
       "Instant Cast"
     ],
-    "human_name": "Greevil Fury"
+    "human_name": "greevil_blade_fury"
   },
   "5554": {
     "name": "greevil_phantom_strike",
@@ -10246,7 +10262,7 @@
     "behavior": [
       "Unit Target"
     ],
-    "human_name": "Phantom Greevil Strike"
+    "human_name": "greevil_phantom_strike"
   },
   "5555": {
     "name": "greevil_time_lock",
@@ -10255,7 +10271,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "Greevil Lock"
+    "human_name": "greevil_time_lock"
   },
   "5556": {
     "name": "greevil_shadow_wave",
@@ -10266,7 +10282,7 @@
     "behavior": [
       "Unit Target"
     ],
-    "human_name": "Greevil Wave"
+    "human_name": "greevil_shadow_wave"
   },
   "5557": {
     "name": "greevil_leech_seed",
@@ -10279,7 +10295,7 @@
     "behavior": [
       "Unit Target"
     ],
-    "human_name": "Leech Greevil"
+    "human_name": "greevil_leech_seed"
   },
   "5558": {
     "name": "greevil_echo_slam",
@@ -10292,7 +10308,7 @@
     "behavior": [
       "No Target"
     ],
-    "human_name": "Greevil Slam"
+    "human_name": "greevil_echo_slam"
   },
   "5559": {
     "name": "greevil_natures_attendants",
@@ -10303,7 +10319,7 @@
     "behavior": [
       "No Target"
     ],
-    "human_name": "Greevil's Attendants"
+    "human_name": "greevil_natures_attendants"
   },
   "5560": {
     "name": "greevil_bloodlust",
@@ -10315,7 +10331,7 @@
       "Unit Target",
       "Autocast"
     ],
-    "human_name": "Greevilust"
+    "human_name": "greevil_bloodlust"
   },
   "5561": {
     "name": "greevil_purification",
@@ -10328,7 +10344,7 @@
     "behavior": [
       "Unit Target"
     ],
-    "human_name": "Greevilication"
+    "human_name": "greevil_purification"
   },
   "5562": {
     "name": "greevil_flesh_golem",
@@ -10342,7 +10358,7 @@
       "No Target",
       "Instant Cast"
     ],
-    "human_name": "Greevil Golem"
+    "human_name": "greevil_flesh_golem"
   },
   "5563": {
     "name": "greevil_hook",
@@ -10353,7 +10369,7 @@
     "behavior": [
       "Point Target"
     ],
-    "human_name": "Greevil Hook"
+    "human_name": "greevil_hook"
   },
   "5564": {
     "name": "greevil_rot",
@@ -10362,7 +10378,7 @@
     "behavior": [
       "No Target"
     ],
-    "human_name": "Greevil Rot"
+    "human_name": "greevil_rot"
   },
   "5569": {
     "name": "greevil_black_hole",
@@ -10375,7 +10391,7 @@
       "Point Target",
       "Channeled"
     ],
-    "human_name": "Greevil Hole"
+    "human_name": "greevil_black_hole"
   },
   "5536": {
     "name": "greevil_miniboss_black_nightmare",
@@ -10388,7 +10404,7 @@
     "behavior": [
       "Unit Target"
     ],
-    "human_name": "Greevilmare"
+    "human_name": "greevil_miniboss_black_nightmare"
   },
   "5537": {
     "name": "greevil_miniboss_black_brain_sap",
@@ -10401,7 +10417,7 @@
     "behavior": [
       "Unit Target"
     ],
-    "human_name": "Greevil Brain Sap"
+    "human_name": "greevil_miniboss_black_brain_sap"
   },
   "5538": {
     "name": "greevil_miniboss_blue_cold_feet",
@@ -10414,7 +10430,7 @@
     "behavior": [
       "Unit Target"
     ],
-    "human_name": "Cold Greevil Feet"
+    "human_name": "greevil_miniboss_blue_cold_feet"
   },
   "5539": {
     "name": "greevil_miniboss_blue_ice_vortex",
@@ -10428,7 +10444,7 @@
       "AOE",
       "Point Target"
     ],
-    "human_name": "Ice Greevortex"
+    "human_name": "greevil_miniboss_blue_ice_vortex"
   },
   "5540": {
     "name": "greevil_miniboss_red_earthshock",
@@ -10441,7 +10457,7 @@
     "behavior": [
       "No Target"
     ],
-    "human_name": "Greevilshock"
+    "human_name": "greevil_miniboss_red_earthshock"
   },
   "5541": {
     "name": "greevil_miniboss_red_overpower",
@@ -10454,7 +10470,7 @@
     "behavior": [
       "No Target"
     ],
-    "human_name": "Greevilpower"
+    "human_name": "greevil_miniboss_red_overpower"
   },
   "5542": {
     "name": "greevil_miniboss_yellow_ion_shell",
@@ -10467,7 +10483,7 @@
     "behavior": [
       "Unit Target"
     ],
-    "human_name": "Greevil Shell"
+    "human_name": "greevil_miniboss_yellow_ion_shell"
   },
   "5543": {
     "name": "greevil_miniboss_yellow_surge",
@@ -10480,7 +10496,7 @@
     "behavior": [
       "Unit Target"
     ],
-    "human_name": "Greevil Surge"
+    "human_name": "greevil_miniboss_yellow_surge"
   },
   "5544": {
     "name": "greevil_miniboss_white_purification",
@@ -10493,7 +10509,7 @@
     "behavior": [
       "Unit Target"
     ],
-    "human_name": "Greevilication"
+    "human_name": "greevil_miniboss_white_purification"
   },
   "5545": {
     "name": "greevil_miniboss_white_degen_aura",
@@ -10502,7 +10518,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "Degreevil Aura"
+    "human_name": "greevil_miniboss_white_degen_aura"
   },
   "5570": {
     "name": "greevil_miniboss_green_living_armor",
@@ -10515,7 +10531,7 @@
     "behavior": [
       "Unit Target"
     ],
-    "human_name": "Greeviling Armor"
+    "human_name": "greevil_miniboss_green_living_armor"
   },
   "5571": {
     "name": "greevil_miniboss_green_overgrowth",
@@ -10528,7 +10544,7 @@
     "behavior": [
       "No Target"
     ],
-    "human_name": "Greevil Overgrowth"
+    "human_name": "greevil_miniboss_green_overgrowth"
   },
   "5572": {
     "name": "greevil_miniboss_orange_dragon_slave",
@@ -10542,7 +10558,7 @@
       "Unit Target",
       "Point Target"
     ],
-    "human_name": "Greevil Dragon Breath"
+    "human_name": "greevil_miniboss_orange_dragon_slave"
   },
   "5573": {
     "name": "greevil_miniboss_orange_light_strike_array",
@@ -10556,7 +10572,7 @@
       "Point Target",
       "AOE"
     ],
-    "human_name": "Greevil Light Strike"
+    "human_name": "greevil_miniboss_orange_light_strike_array"
   },
   "5574": {
     "name": "greevil_miniboss_purple_venomous_gale",
@@ -10570,7 +10586,7 @@
       "AOE",
       "Point Target"
     ],
-    "human_name": "Venomous Greevil Spit"
+    "human_name": "greevil_miniboss_purple_venomous_gale"
   },
   "5575": {
     "name": "greevil_miniboss_purple_plague_ward",
@@ -10583,7 +10599,7 @@
     "behavior": [
       "Point Target"
     ],
-    "human_name": "Greevil Ward"
+    "human_name": "greevil_miniboss_purple_plague_ward"
   },
   "5576": {
     "name": "greevil_miniboss_sight",
@@ -10592,7 +10608,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "Greevil Sight"
+    "human_name": "greevil_miniboss_sight"
   },
   "5577": {
     "name": "throw_snowball",
@@ -10605,7 +10621,7 @@
     "behavior": [
       "Unit Target"
     ],
-    "human_name": null
+    "human_name": "throw_snowball"
   },
   "5578": {
     "name": "throw_coal",
@@ -10618,7 +10634,7 @@
     "behavior": [
       "Unit Target"
     ],
-    "human_name": null
+    "human_name": "throw_coal"
   },
   "5579": {
     "name": "healing_campfire",
@@ -10632,7 +10648,7 @@
       "AOE",
       "Point Target"
     ],
-    "human_name": null
+    "human_name": "healing_campfire"
   },
   "5650": {
     "name": "shoot_firework",
@@ -10641,7 +10657,7 @@
     "behavior": [
       "Point Target"
     ],
-    "human_name": null
+    "human_name": "shoot_firework"
   },
   "5599": {
     "name": "techies_land_mines",
@@ -10764,7 +10780,7 @@
       "Instant Cast",
       "Hidden"
     ],
-    "human_name": null
+    "human_name": "cny_beast_force_attack"
   },
   "5662": {
     "name": "cny2015_sonic_wave",
@@ -10777,7 +10793,7 @@
     "behavior": [
       "Point Target"
     ],
-    "human_name": "Sonic Wave"
+    "human_name": "cny2015_sonic_wave"
   },
   "5663": {
     "name": "cny2015_black_hole",
@@ -10792,7 +10808,7 @@
       "Point Target",
       "Channeled"
     ],
-    "human_name": "Black Hole"
+    "human_name": "cny2015_black_hole"
   },
   "5664": {
     "name": "cny2015_chronosphere",
@@ -10806,7 +10822,7 @@
       "AOE",
       "Point Target"
     ],
-    "human_name": "Chronosphere"
+    "human_name": "cny2015_chronosphere"
   },
   "5651": {
     "name": "winter_wyvern_arctic_burn",
@@ -10890,7 +10906,7 @@
       "Unit Target",
       "No Target"
     ],
-    "human_name": null
+    "human_name": "cny_beast_teleport"
   },
   "7854": {
     "name": "arc_warden_scepter",
@@ -11576,7 +11592,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "15s Spell Block"
+    "human_name": "15.0s Spell Block"
   },
   "7035": {
     "name": "special_bonus_spell_block_20",
@@ -11585,7 +11601,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "20s Spell Block"
+    "human_name": "20.0s Spell Block"
   },
   "6987": {
     "name": "special_bonus_mana_break_20",
@@ -13637,7 +13653,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "+30 Gold/Min"
+    "human_name": "special_bonus_gold_income_5"
   },
   "5956": {
     "name": "special_bonus_gold_income_10",
@@ -13646,7 +13662,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "+60 Gold/Min"
+    "human_name": "special_bonus_gold_income_10"
   },
   "6007": {
     "name": "special_bonus_gold_income_15",
@@ -13655,7 +13671,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "+90 Gold/Min"
+    "human_name": "special_bonus_gold_income_15"
   },
   "6008": {
     "name": "special_bonus_gold_income_20",
@@ -13664,7 +13680,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "+120 Gold/Min"
+    "human_name": "special_bonus_gold_income_20"
   },
   "5957": {
     "name": "special_bonus_gold_income_25",
@@ -13673,7 +13689,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "+150 Gold/Min"
+    "human_name": "special_bonus_gold_income_25"
   },
   "6026": {
     "name": "special_bonus_gold_income_30",
@@ -13682,7 +13698,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "+180 Gold/Min"
+    "human_name": "+30 Gold/Min"
   },
   "8005": {
     "name": "special_bonus_gold_income_35",
@@ -13691,7 +13707,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "+210 Gold/Min"
+    "human_name": "special_bonus_gold_income_35"
   },
   "6301": {
     "name": "special_bonus_gold_income_40",
@@ -13700,7 +13716,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "+240 Gold/Min"
+    "human_name": "special_bonus_gold_income_40"
   },
   "6318": {
     "name": "special_bonus_gold_income_50",
@@ -13709,7 +13725,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "+300 Gold/Min"
+    "human_name": "special_bonus_gold_income_50"
   },
   "6446": {
     "name": "special_bonus_gold_income_70",
@@ -13718,7 +13734,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "+420 Gold/Min"
+    "human_name": "special_bonus_gold_income_70"
   },
   "5971": {
     "name": "special_bonus_evasion_10",
@@ -13799,7 +13815,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "+20% 2s Bash"
+    "human_name": "+2.0% 2.0s Bash"
   },
   "6851": {
     "name": "special_bonus_30_crit_2",
@@ -13808,7 +13824,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "+30% Critical Strike (2x)"
+    "human_name": "+30.0% Critical Strike (200.0%)"
   },
   "7045": {
     "name": "special_bonus_20_crit_15",
@@ -13817,7 +13833,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "+20% Critical Strike (1.5x)"
+    "human_name": "+20.0% Critical Strike (150.0%)"
   },
   "7145": {
     "name": "special_bonus_50_crit_40",
@@ -13826,7 +13842,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "+50% Critical Strike (1.4x)"
+    "human_name": "+50.0% Critical Strike (140.0%)"
   },
   "5983": {
     "name": "special_bonus_exp_boost_5",
@@ -13916,7 +13932,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "-0.3s Battery Assault Interval"
+    "human_name": "0.3s Battery Assault Interval"
   },
   "6364": {
     "name": "special_bonus_unique_clockwerk_2",
@@ -14051,7 +14067,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "+1 Maledict Tick"
+    "human_name": "+4 Maledict Tick"
   },
   "6996": {
     "name": "special_bonus_unique_witch_doctor_5",
@@ -14078,7 +14094,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "+0.8 Heartstopper Aura"
+    "human_name": "+0.8  Heartstopper Aura"
   },
   "7110": {
     "name": "special_bonus_unique_necrophos_3",
@@ -14231,7 +14247,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "+0.8s Pit of Malice Root"
+    "human_name": "+0.8 s Pit of Malice Root"
   },
   "6967": {
     "name": "special_bonus_unique_underlord_2",
@@ -14294,7 +14310,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "+20% Rot Slow"
+    "human_name": "-20% Rot Slow"
   },
   "6024": {
     "name": "special_bonus_unique_treant",
@@ -14330,7 +14346,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "+2s Nature's Guise Root"
+    "human_name": "+2.0s Nature's Guise Root"
   },
   "6957": {
     "name": "special_bonus_unique_treant_5",
@@ -14375,7 +14391,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "-0.1 Eye of the Storm Strike Interval"
+    "human_name": "0.1 Eye of the Storm Strike Interval"
   },
   "6860": {
     "name": "special_bonus_unique_razor_3",
@@ -14636,7 +14652,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "+40% Poison Touch Slow"
+    "human_name": "-40% Poison Touch Slow"
   },
   "6232": {
     "name": "special_bonus_unique_dazzle_2",
@@ -14717,7 +14733,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "Magic Immunity for Chaotic Offering Golems"
+    "human_name": "Spell Immunity for Chaotic Offering Golems"
   },
   "6054": {
     "name": "special_bonus_unique_warlock_2",
@@ -14834,7 +14850,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "+12% Poison Sting Slow"
+    "human_name": "-12% Poison Sting Slow"
   },
   "6979": {
     "name": "special_bonus_unique_venomancer_3",
@@ -14996,7 +15012,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "+40 Dual Breath Burn Damage"
+    "human_name": "+40.0 Dual Breath Burn Damage"
   },
   "6538": {
     "name": "special_bonus_unique_jakiro_3",
@@ -15032,7 +15048,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "+5 Malefice Instance"
+    "human_name": "+5 Malefice Instances"
   },
   "6649": {
     "name": "special_bonus_unique_enigma_3",
@@ -15419,7 +15435,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "+2% Max Health Sun Ray Damage"
+    "human_name": "+2.0% Max Health Sun Ray Damage"
   },
   "6331": {
     "name": "special_bonus_unique_enchantress_1",
@@ -15446,7 +15462,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "+100 Untouchable Slow"
+    "human_name": "-100 Untouchable Slow"
   },
   "6515": {
     "name": "special_bonus_unique_enchantress_4",
@@ -15563,7 +15579,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "2x Skeletons Spawned"
+    "human_name": "2.0x Skeletons Spawned"
   },
   "6089": {
     "name": "special_bonus_unique_kunkka",
@@ -15626,7 +15642,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "+2s Dragon Tail"
+    "human_name": "+2.0s Dragon Tail"
   },
   "7113": {
     "name": "special_bonus_unique_dragon_knight_3",
@@ -15653,7 +15669,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "+30% Frost Breath Slow"
+    "human_name": "+-30% Frost Breath Slow"
   },
   "7381": {
     "name": "special_bonus_unique_dragon_knight_6",
@@ -15671,7 +15687,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "+1 Forged Spirit Summoned"
+    "human_name": "2 Forged Spirits Summoned"
   },
   "6098": {
     "name": "special_bonus_unique_invoker_2",
@@ -15824,7 +15840,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "-0.2 Chemical Rage Base Attack Time"
+    "human_name": "0.15 Chemical Rage Base Attack Time"
   },
   "7054": {
     "name": "special_bonus_unique_alchemist_4",
@@ -15932,7 +15948,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "+4s Strafe Duration"
+    "human_name": "+4.0s Strafe Duration"
   },
   "6620": {
     "name": "special_bonus_unique_clinkz_3",
@@ -15968,7 +15984,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "+1s Blade Fury"
+    "human_name": "+1.0s Blade Fury"
   },
   "6662": {
     "name": "special_bonus_unique_juggernaut_2",
@@ -15977,7 +15993,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "+1s Omnislash Duration"
+    "human_name": "+1.0s Omnislash Duration"
   },
   "7021": {
     "name": "special_bonus_unique_juggernaut_3",
@@ -16031,7 +16047,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "Splinter Blast 2s Stun"
+    "human_name": "Splinter Blast 2.0s Stun"
   },
   "6107": {
     "name": "special_bonus_unique_terrorblade",
@@ -16238,7 +16254,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "+2 Swarm Attacks to Kill"
+    "human_name": "+4 Swarm Attacks to Kill"
   },
   "6990": {
     "name": "special_bonus_unique_weaver_5",
@@ -16265,7 +16281,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "-1s Earthshock Cooldown"
+    "human_name": "-1.0s Earthshock Cooldown"
   },
   "6974": {
     "name": "special_bonus_unique_ursa_3",
@@ -16328,7 +16344,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "+2 Max Chaos Bolt Duration"
+    "human_name": "+2.0 Max Chaos Bolt Duration"
   },
   "6134": {
     "name": "special_bonus_unique_lycan_1",
@@ -16391,7 +16407,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "+30% Windrun Slow"
+    "human_name": "+-30% Windrun Slow"
   },
   "6562": {
     "name": "special_bonus_unique_windranger_3",
@@ -16427,7 +16443,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "+1s Shackleshot Duration"
+    "human_name": "+1.0s Shackleshot Duration"
   },
   "7888": {
     "name": "special_bonus_unique_windranger_7",
@@ -16454,7 +16470,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "-2s Shackleshot Cooldown"
+    "human_name": "-2.0s Shackleshot Cooldown"
   },
   "6146": {
     "name": "special_bonus_unique_phantom_lancer",
@@ -16499,7 +16515,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "+1s Pounce Leash"
+    "human_name": "+1.0s Pounce Leash"
   },
   "6892": {
     "name": "special_bonus_unique_slark_2",
@@ -16517,7 +16533,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "+1s Shadow Dance Duration"
+    "human_name": "+1.0s Shadow Dance Duration"
   },
   "6894": {
     "name": "special_bonus_unique_slark_4",
@@ -16526,7 +16542,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "+80s Essence Shift Duration"
+    "human_name": "+80 Essence Shift Duration"
   },
   "6148": {
     "name": "special_bonus_unique_spectre",
@@ -16616,7 +16632,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "+6 Ball Lightning Damage"
+    "human_name": "+6.0 Ball Lightning Damage"
   },
   "6907": {
     "name": "special_bonus_unique_storm_spirit_3",
@@ -16634,7 +16650,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "500 Distance Auto Remnant in Ball Lightning"
+    "human_name": "500.0 Distance Auto Remnant in Ball Lightning"
   },
   "6916": {
     "name": "special_bonus_unique_storm_spirit_5",
@@ -16679,7 +16695,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "+25% Anchor Smash Damage Reduction"
+    "human_name": "-25% Anchor Smash Damage Reduction"
   },
   "6947": {
     "name": "special_bonus_unique_tidehunter_4",
@@ -17102,7 +17118,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "+15% Ancient Seal Magic Resistance Reduction"
+    "human_name": "-15% Ancient Seal Magic Resistance Reduction"
   },
   "6886": {
     "name": "special_bonus_unique_skywrath_4",
@@ -17192,7 +17208,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": null
+    "human_name": "special_bonus_unique_ogre_magi_3"
   },
   "6184": {
     "name": "special_bonus_unique_silencer",
@@ -17228,7 +17244,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "+2s Global Silence"
+    "human_name": "+2.0s Global Silence"
   },
   "7048": {
     "name": "special_bonus_unique_silencer_5",
@@ -17237,7 +17253,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "+1s Glaives Silence"
+    "human_name": "+1.0s Glaives Silence"
   },
   "6191": {
     "name": "special_bonus_unique_death_prophet",
@@ -17255,7 +17271,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "-3s Crypt Swarm Cooldown"
+    "human_name": "-3.0s Crypt Swarm Cooldown"
   },
   "6628": {
     "name": "special_bonus_unique_death_prophet_3",
@@ -17264,7 +17280,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "+1% Max Health Spirit Siphon"
+    "human_name": "+1.0% Max Health Spirit Siphon"
   },
   "6805": {
     "name": "special_bonus_unique_death_prophet_4",
@@ -17291,7 +17307,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "+10% Coup de Grace"
+    "human_name": "+10% Coup de Grace chance"
   },
   "6848": {
     "name": "special_bonus_unique_phantom_assassin_3",
@@ -17444,7 +17460,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "+20% Shrapnel Slow"
+    "human_name": "-20% Shrapnel Slow"
   },
   "7892": {
     "name": "special_bonus_unique_sniper_6",
@@ -17498,7 +17514,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "+1s Reverse Polarity Stun Duration"
+    "human_name": "+1.0s Reverse Polarity Stun Duration"
   },
   "6202": {
     "name": "special_bonus_unique_drow_ranger_1",
@@ -17534,7 +17550,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "+3s Gust Silence Duration"
+    "human_name": "+3.0s Gust Silence Duration"
   },
   "8010": {
     "name": "special_bonus_unique_drow_ranger_5",
@@ -17543,7 +17559,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "+40% Gust Blind"
+    "human_name": "+50% Gust Blind"
   },
   "6203": {
     "name": "special_bonus_unique_earth_spirit",
@@ -17669,7 +17685,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "+1s Fortune's End Max Duration"
+    "human_name": "+1.0s Fortune's End Max Duration"
   },
   "6710": {
     "name": "special_bonus_unique_oracle_3",
@@ -17678,7 +17694,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "-5s Fate's Edict Cooldown"
+    "human_name": "-5.0s Fate's Edict Cooldown"
   },
   "6970": {
     "name": "special_bonus_unique_oracle_4",
@@ -17759,7 +17775,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "+25% Shadow Poison Damage"
+    "human_name": "+25.0% Shadow Poison Damage"
   },
   "7002": {
     "name": "special_bonus_unique_shadow_demon_5",
@@ -17894,7 +17910,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "+8% Ice Vortex Slow/Resistance"
+    "human_name": "-8% Ice Vortex Slow/Resistance"
   },
   "6810": {
     "name": "special_bonus_unique_ancient_apparition_5",
@@ -18074,7 +18090,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "+2 Will-O-Wisp Flicker"
+    "human_name": "+3 Will-O-Wisp Flicker"
   },
   "7398": {
     "name": "special_bonus_unique_keeper_of_the_light_4",
@@ -18137,7 +18153,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "+40% Illusory Orb Distance/Speed"
+    "human_name": "+50% Illusory Orb Distance/Speed"
   },
   "6402": {
     "name": "special_bonus_unique_puck_2",
@@ -18146,7 +18162,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "-8s Waning Rift Cooldown"
+    "human_name": "-9s Waning Rift Cooldown"
   },
   "6855": {
     "name": "special_bonus_unique_puck_3",
@@ -18200,7 +18216,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "-1s Netherblast Cooldown"
+    "human_name": "-1.0s Netherblast Cooldown"
   },
   "6541": {
     "name": "special_bonus_unique_pugna_5",
@@ -18209,7 +18225,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "+2s Decrepify Duration"
+    "human_name": "+2.0s Decrepify Duration"
   },
   "6859": {
     "name": "special_bonus_unique_pugna_6",
@@ -18218,7 +18234,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "+3 Nether Ward Health"
+    "human_name": "+3.0 Nether Ward Health"
   },
   "6223": {
     "name": "special_bonus_unique_timbersaw",
@@ -18371,7 +18387,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "-30s Divine Favor Cooldown"
+    "human_name": "-40s Divine Favor Cooldown"
   },
   "6261": {
     "name": "special_bonus_unique_lone_druid_1",
@@ -18407,7 +18423,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "-12s Savage Roar Cooldown"
+    "human_name": "-12 Savage Roar Cooldown"
   },
   "6508": {
     "name": "special_bonus_unique_lone_druid_5",
@@ -18578,7 +18594,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "+3s Flux Duration"
+    "human_name": "+3.0s Flux Duration"
   },
   "7104": {
     "name": "special_bonus_unique_arc_warden_3",
@@ -18587,7 +18603,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "-2s Spark Wraith Cooldown"
+    "human_name": "-2.0s Spark Wraith Cooldown"
   },
   "7105": {
     "name": "special_bonus_unique_arc_warden_4",
@@ -18695,7 +18711,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "+1 Wukong's Command Ring"
+    "human_name": "Additional Wukong's Command Ring"
   },
   "7038": {
     "name": "special_bonus_unique_monkey_king_7",
@@ -18713,7 +18729,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "2s Shield Crash CD in Ball"
+    "human_name": "2.0s Shield Crash CD in Ball"
   },
   "9060": {
     "name": "special_bonus_unique_pangolier_3",
@@ -18731,7 +18747,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "-3s Swashbuckle Cooldown"
+    "human_name": "3.0s Swashbuckle Cooldown"
   },
   "9062": {
     "name": "special_bonus_unique_pangolier_5",
@@ -18740,7 +18756,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "-35s Rolling Thunder Cooldown"
+    "human_name": "-35.0s Rolling Thunder Cooldown"
   },
   "9135": {
     "name": "special_bonus_unique_pangolier_6",
@@ -18749,7 +18765,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "+2s Rolling Thunder Duration"
+    "human_name": "+2.0s Rolling Thunder Duration"
   },
   "9391": {
     "name": "special_bonus_unique_pangolier_7",
@@ -18785,7 +18801,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "-12s Bramble Maze CD"
+    "human_name": "-12.0s Bramble Maze CD"
   },
   "8001": {
     "name": "special_bonus_unique_grimstroke_1",
@@ -18803,7 +18819,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "+50% Stroke of Fate Damage"
+    "human_name": "+1.5% Stroke of Fate Damage"
   },
   "8003": {
     "name": "special_bonus_unique_grimstroke_3",
@@ -18821,7 +18837,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "+1 Hits to Kill Phantom"
+    "human_name": "+3 Hits to Kill Phantom"
   },
   "6251": {
     "name": "generic_hidden",
@@ -18830,7 +18846,7 @@
     "behavior": [
       "Hidden"
     ],
-    "human_name": null
+    "human_name": "generic_hidden"
   },
   "82": {
     "name": "bear_empty1",
@@ -18857,7 +18873,7 @@
     "behavior": [
       "Hidden"
     ],
-    "human_name": null
+    "human_name": "consumable_hidden"
   },
   "7804": {
     "name": "seasonal_throw_snowball",
@@ -18971,7 +18987,7 @@
     "behavior": [
       "Unit Target"
     ],
-    "human_name": null
+    "human_name": "seasonal_summon_cny_balloon"
   },
   "7818": {
     "name": "seasonal_summon_dragon",
@@ -18984,7 +19000,7 @@
     "behavior": [
       "Point Target"
     ],
-    "human_name": null
+    "human_name": "seasonal_summon_dragon"
   },
   "7819": {
     "name": "seasonal_summon_cny_tree",
@@ -18995,7 +19011,7 @@
     "behavior": [
       "Unit Target"
     ],
-    "human_name": null
+    "human_name": "seasonal_summon_cny_tree"
   },
   "7820": {
     "name": "seasonal_firecrackers",
@@ -19009,7 +19025,7 @@
       "No Target",
       "Instant Cast"
     ],
-    "human_name": null
+    "human_name": "seasonal_firecrackers"
   },
   "7968": {
     "name": "high_five",
@@ -19057,7 +19073,7 @@
       0
     ],
     "cooldown": [
-      60
+      20
     ],
     "behavior": [
       "Channeled"

@@ -144,12 +144,30 @@ end
 
 temp_hash = ability_data.map do |name, aparams|
   params = aparams.to_h
+  h_name = t(name)
+  if h_name
+    interpolations = h_name.scan /{s:\w*}/
+    interpolations.each do |i|
+      field = i[3..-2]
+      value = if params['AbilitySpecial'].is_a?(Hash)
+        params['AbilitySpecial'][field]
+      else
+        puts params['AbilitySpecial']
+        puts field
+        params['AbilitySpecial'].select{|f| f.first.first.to_s == field.to_s}.last[field] rescue params['AbilitySpecial'].first['value']
+      end
+      h_name = h_name.gsub(i, value.to_s)
+    end
+  else
+    h_name = name
+  end
+
   attrs = {
     name: name,
     manacost: (params['AbilityManaCost'].split(' ').map(&:to_i) rescue nil),
     cooldown: (params['AbilityCooldown'].split(' ').map(&:to_i) rescue nil),
     behavior: format_behavior(params['AbilityBehavior']),
-    human_name: t(name)
+    human_name: h_name
   }
   [params['ID'], attrs]
 end.to_h;nil
