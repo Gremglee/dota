@@ -81,7 +81,21 @@ temp_hash = heroes_data.map do |name, params|
       nil
     else
       unless ['', 'generic_hidden'].include? params["Ability#{index}"]
-        ability_data[params["Ability#{index}"].to_s]['ID'].to_i
+        x = params["Ability#{index}"].to_s
+        # case params["Ability#{index}"].to_s 
+        #     when 'drow_ranger_multishot' then 'drow_ranger_trueshot'
+        #     when 'pudge_eject' then 'pudge_dismember'
+        #     when 'tiny_tree_grab' then 'tiny_tree_channel'
+        #     when 'kunkka_torrent_storm' then 'kunkka_torrent'
+        #     when 'riki_backstab' then 'riki_permanent_invisibility'
+        #     else
+        #       params["Ability#{index}"].to_s
+        #     end
+        if ability_data[x].nil?
+          nil
+        else
+          ability_data[x]['ID'].to_i
+        end
       end
     end
   end.compact.uniq

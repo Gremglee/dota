@@ -1280,7 +1280,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "Unstable Current"
+    "human_name": "Storm Surge"
   },
   "5085": {
     "name": "razor_eye_of_the_storm",
@@ -1664,7 +1664,7 @@
     "behavior": [
       "Unit Target"
     ],
-    "human_name": "Tree Grab"
+    "human_name": "Craggy Exterior"
   },
   "6937": {
     "name": "tiny_toss_tree",
@@ -2328,7 +2328,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "Cloak and Dagger"
+    "human_name": "Permanent Invisibility"
   },
   "5145": {
     "name": "riki_tricks_of_the_trade",
@@ -5676,7 +5676,7 @@
       "No Target",
       "Instant Cast"
     ],
-    "human_name": "Equilibrium"
+    "human_name": "Essence Flux"
   },
   "5394": {
     "name": "obsidian_destroyer_sanity_eclipse",
@@ -14301,7 +14301,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "+3s Dismember Duration"
+    "human_name": "Dismember Double Damage/Heal"
   },
   "7142": {
     "name": "special_bonus_unique_pudge_4",
@@ -14409,7 +14409,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "+200 Unstable Current Damage"
+    "human_name": "+200 Eye of the Storm Passive Damage"
   },
   "6031": {
     "name": "special_bonus_unique_visage_1",
@@ -14733,7 +14733,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "Spell Immunity for Chaotic Offering Golems"
+    "human_name": "100% Magic Resistance for Chaotic Offering Golems"
   },
   "6054": {
     "name": "special_bonus_unique_warlock_2",
@@ -14796,7 +14796,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "+15% Vengeance Aura Damage"
+    "human_name": "+15 Vengeance Aura Attributes"
   },
   "6057": {
     "name": "special_bonus_unique_vengeful_spirit_3",
@@ -15948,7 +15948,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "+4.0s Strafe Duration"
+    "human_name": "+4.0s Skeleton Walk Attack Speed Duration"
   },
   "6620": {
     "name": "special_bonus_unique_clinkz_3",
@@ -17037,7 +17037,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "+1% Feast Damage/Lifesteal"
+    "human_name": "+1% Feast Lifesteal"
   },
   "6677": {
     "name": "special_bonus_reincarnation_200",
@@ -17163,7 +17163,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "+25% Mystic Snake Mana Steal"
+    "human_name": "+25% Mystic Snake Mana Gain"
   },
   "6803": {
     "name": "special_bonus_unique_medusa_4",
@@ -17226,7 +17226,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "+2 Intelligence Steal"
+    "human_name": "+2 Permanent Intelligence Steal"
   },
   "6879": {
     "name": "special_bonus_unique_silencer_3",
@@ -17523,7 +17523,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "+25% Precision Aura Attack Speed"
+    "human_name": "+25% Multishot Damage"
   },
   "6209": {
     "name": "special_bonus_unique_drow_ranger_2",
@@ -17541,7 +17541,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "+20 Marksmanship Agility"
+    "human_name": "+20 Marksmanship Chance"
   },
   "6634": {
     "name": "special_bonus_unique_drow_ranger_4",
@@ -18036,7 +18036,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "+60s Arcane Orb Int Steal"
+    "human_name": "+60% Arcane Orb Damage"
   },
   "6711": {
     "name": "special_bonus_unique_outworld_devourer_2",
@@ -18063,7 +18063,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "+2 Sanity's Eclipse Multiplier"
+    "human_name": "+2 Sanity's Eclipse Mana Difference Multiplier"
   },
   "6217": {
     "name": "special_bonus_unique_keeper_of_the_light",
@@ -18450,7 +18450,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "Battle Cry Grants Spell Immunity"
+    "human_name": "+0 True Form Health"
   },
   "6806": {
     "name": "special_bonus_unique_lone_druid_8",
@@ -18459,7 +18459,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "-25s Battle Cry Cooldown"
+    "human_name": "-25s True Form Cooldown"
   },
   "6265": {
     "name": "special_bonus_unique_wisp",
@@ -18486,7 +18486,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "-0.5 Spirit Bear Attack Time"
+    "human_name": "0.5 Spirit Bear Attack Time"
   },
   "6537": {
     "name": "special_bonus_unique_wisp_2",
@@ -18819,7 +18819,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "+1.5% Stroke of Fate Damage"
+    "human_name": "1.5x Stroke of Fate Damage"
   },
   "8003": {
     "name": "special_bonus_unique_grimstroke_3",
