@@ -6,6 +6,17 @@
     "behavior": null,
     "human_name": "Attacks"
   },
+  "5669": {
+    "name": "ability_capture",
+    "manacost": null,
+    "cooldown": null,
+    "behavior": [
+      "Unit Target",
+      "Channeled",
+      "Hidden"
+    ],
+    "human_name": "ability_capture"
+  },
   "5003": {
     "name": "antimage_mana_break",
     "manacost": null,
@@ -120,9 +131,6 @@
     "name": "axe_counter_helix",
     "manacost": null,
     "cooldown": [
-      0,
-      0,
-      0,
       0
     ],
     "behavior": [
@@ -149,20 +157,10 @@
   },
   "5012": {
     "name": "bane_enfeeble",
-    "manacost": [
-      50,
-      75,
-      100,
-      125
-    ],
-    "cooldown": [
-      12,
-      10,
-      8,
-      6
-    ],
+    "manacost": null,
+    "cooldown": null,
     "behavior": [
-      "Unit Target"
+      "Passive"
     ],
     "human_name": "Enfeeble"
   },
@@ -234,9 +232,7 @@
   },
   "5015": {
     "name": "bloodseeker_bloodrage",
-    "manacost": [
-      0
-    ],
+    "manacost": null,
     "cooldown": [
       9,
       8,
@@ -309,6 +305,25 @@
       "Attack Modifier"
     ],
     "human_name": "Frost Arrows"
+  },
+  "343": {
+    "name": "drow_ranger_multishot",
+    "manacost": [
+      50,
+      60,
+      70,
+      80
+    ],
+    "cooldown": [
+      26,
+      24,
+      22,
+      20
+    ],
+    "behavior": [
+      "Point Target"
+    ],
+    "human_name": "Multishot"
   },
   "5020": {
     "name": "drow_ranger_silence",
@@ -509,6 +524,20 @@
     ],
     "human_name": "Torrent"
   },
+  "319": {
+    "name": "kunkka_torrent_storm",
+    "manacost": [
+      250
+    ],
+    "cooldown": [
+      70
+    ],
+    "behavior": [
+      "No Target",
+      "Hidden"
+    ],
+    "human_name": "Torrent Storm"
+  },
   "5032": {
     "name": "kunkka_tidebringer",
     "manacost": null,
@@ -531,10 +560,10 @@
       50
     ],
     "cooldown": [
-      26,
-      20,
-      14,
-      8
+      38,
+      30,
+      22,
+      14
     ],
     "behavior": [
       "Unit Target"
@@ -563,9 +592,9 @@
       225
     ],
     "cooldown": [
-      60,
-      50,
-      40
+      80,
+      70,
+      60
     ],
     "behavior": [
       "Point Target"
@@ -1075,7 +1104,8 @@
       13
     ],
     "behavior": [
-      "No Target"
+      "Point Target",
+      "AOE"
     ],
     "human_name": "Waning Rift"
   },
@@ -1150,6 +1180,17 @@
       "No Target"
     ],
     "human_name": "Rot"
+  },
+  "322": {
+    "name": "pudge_eject",
+    "manacost": null,
+    "cooldown": null,
+    "behavior": [
+      "No Target",
+      "Instant Cast",
+      "Hidden"
+    ],
+    "human_name": "Eject"
   },
   "5077": {
     "name": "pudge_dismember",
@@ -1324,8 +1365,7 @@
     "manacost": null,
     "cooldown": null,
     "behavior": [
-      "Instant Cast",
-      "No Target"
+      "Passive"
     ],
     "human_name": "Vampiric Aura"
   },
@@ -1642,6 +1682,9 @@
       120
     ],
     "cooldown": [
+      17,
+      15,
+      13,
       11
     ],
     "behavior": [
@@ -1650,8 +1693,17 @@
     ],
     "human_name": "Toss"
   },
-  "5108": {
+  "296": {
     "name": "tiny_craggy_exterior",
+    "manacost": null,
+    "cooldown": null,
+    "behavior": [
+      "Passive"
+    ],
+    "human_name": "Craggy Exterior"
+  },
+  "5108": {
+    "name": "tiny_tree_grab",
     "manacost": [
       50
     ],
@@ -1664,7 +1716,7 @@
     "behavior": [
       "Unit Target"
     ],
-    "human_name": "Craggy Exterior"
+    "human_name": "Tree Grab"
   },
   "6937": {
     "name": "tiny_toss_tree",
@@ -1737,7 +1789,7 @@
   "6325": {
     "name": "zuus_cloud",
     "manacost": [
-      275
+      325
     ],
     "cooldown": [
       35
@@ -2294,9 +2346,9 @@
       90
     ],
     "cooldown": [
+      20,
       17,
-      15,
-      13,
+      14,
       11
     ],
     "behavior": [
@@ -2311,10 +2363,7 @@
       50
     ],
     "cooldown": [
-      10,
-      8,
-      6,
-      4
+      0
     ],
     "behavior": [
       "Unit Target"
@@ -2322,6 +2371,15 @@
     "human_name": "Blink Strike"
   },
   "5144": {
+    "name": "riki_backstab",
+    "manacost": null,
+    "cooldown": null,
+    "behavior": [
+      "Passive"
+    ],
+    "human_name": "Cloak and Dagger"
+  },
+  "316": {
     "name": "riki_permanent_invisibility",
     "manacost": null,
     "cooldown": null,
@@ -2333,15 +2391,17 @@
   "5145": {
     "name": "riki_tricks_of_the_trade",
     "manacost": [
-      75
+      50
     ],
     "cooldown": [
-      50,
-      45,
-      40
+      21,
+      18,
+      15,
+      12
     ],
     "behavior": [
-      "No Target",
+      "Point Target",
+      "AOE",
       "Channeled"
     ],
     "human_name": "Tricks of the Trade"
@@ -2374,9 +2434,6 @@
       170
     ],
     "cooldown": [
-      35,
-      35,
-      35,
       35
     ],
     "behavior": [
@@ -3017,7 +3074,7 @@
       300
     ],
     "cooldown": [
-      140
+      160
     ],
     "behavior": [
       "AOE",
@@ -3231,7 +3288,7 @@
       100
     ],
     "cooldown": [
-      30
+      15
     ],
     "behavior": [
       "Point Target",
@@ -3256,15 +3313,9 @@
   "5218": {
     "name": "viper_poison_attack",
     "manacost": [
-      40,
-      35,
-      30,
-      25
+      20
     ],
     "cooldown": [
-      6,
-      4,
-      2,
       0
     ],
     "behavior": [
@@ -3283,7 +3334,7 @@
       100
     ],
     "cooldown": [
-      6
+      14
     ],
     "behavior": [
       "Point Target",
@@ -3351,6 +3402,23 @@
     "cooldown": null,
     "behavior": [
       "Passive"
+    ],
+    "human_name": "Lunar Blessing"
+  },
+  "337": {
+    "name": "luna_lunar_grace",
+    "manacost": [
+      40
+    ],
+    "cooldown": [
+      30,
+      25,
+      20,
+      15
+    ],
+    "behavior": [
+      "No Target",
+      "Instant Cast"
     ],
     "human_name": "Lunar Blessing"
   },
@@ -3522,6 +3590,21 @@
     ],
     "human_name": "Bad Juju"
   },
+  "321": {
+    "name": "rattletrap_overclocking",
+    "manacost": [
+      150
+    ],
+    "cooldown": [
+      60
+    ],
+    "behavior": [
+      "No Target",
+      "Instant Cast",
+      "Hidden"
+    ],
+    "human_name": "Overclocking"
+  },
   "5237": {
     "name": "rattletrap_battery_assault",
     "manacost": [
@@ -3580,9 +3663,9 @@
       150
     ],
     "cooldown": [
-      70,
-      55,
-      40
+      60,
+      45,
+      30
     ],
     "behavior": [
       "Point Target"
@@ -4044,12 +4127,10 @@
   "5262": {
     "name": "clinkz_death_pact",
     "manacost": [
-      100,
-      100,
-      100
+      60
     ],
     "cooldown": [
-      85
+      90
     ],
     "behavior": [
       "Unit Target"
@@ -4150,6 +4231,21 @@
     ],
     "human_name": "Untouchable"
   },
+  "320": {
+    "name": "enchantress_bunny_hop",
+    "manacost": [
+      50
+    ],
+    "cooldown": [
+      3
+    ],
+    "behavior": [
+      "No Target",
+      "Instant Cast",
+      "Hidden"
+    ],
+    "human_name": "Sproink"
+  },
   "5268": {
     "name": "enchantress_enchant",
     "manacost": [
@@ -4159,10 +4255,7 @@
       70
     ],
     "cooldown": [
-      20,
-      16,
-      12,
-      8
+      20
     ],
     "behavior": [
       "Unit Target"
@@ -4189,12 +4282,14 @@
     "name": "enchantress_impetus",
     "manacost": [
       40,
-      55,
-      70
+      45,
+      50,
+      55
     ],
     "cooldown": [
-      0,
-      0,
+      6,
+      4,
+      2,
       0
     ],
     "behavior": [
@@ -4641,7 +4736,10 @@
       140
     ],
     "cooldown": [
-      17
+      18,
+      17,
+      16,
+      15
     ],
     "behavior": [
       "AOE",
@@ -4754,10 +4852,10 @@
   "5330": {
     "name": "chen_holy_persuasion",
     "manacost": [
-      70,
       90,
       110,
-      130
+      130,
+      150
     ],
     "cooldown": [
       15
@@ -4770,9 +4868,9 @@
   "5331": {
     "name": "chen_hand_of_god",
     "manacost": [
-      200,
-      300,
-      400
+      250,
+      350,
+      450
     ],
     "cooldown": [
       160,
@@ -4873,10 +4971,7 @@
       70
     ],
     "cooldown": [
-      70,
-      60,
-      50,
-      40
+      70
     ],
     "behavior": [
       "Unit Target",
@@ -5124,10 +5219,14 @@
       75
     ],
     "cooldown": [
-      5
+      9,
+      8,
+      7,
+      6
     ],
     "behavior": [
-      "No Target"
+      "No Target",
+      "Instant Cast"
     ],
     "human_name": "Earthshock"
   },
@@ -5164,8 +5263,8 @@
       0
     ],
     "cooldown": [
+      70,
       50,
-      40,
       30
     ],
     "behavior": [
@@ -5380,7 +5479,7 @@
       0
     ],
     "cooldown": [
-      6
+      7
     ],
     "behavior": [
       "No Target",
@@ -5574,12 +5673,11 @@
   "5378": {
     "name": "silencer_glaives_of_wisdom",
     "manacost": [
-      15,
-      15,
-      15,
       15
     ],
-    "cooldown": null,
+    "cooldown": [
+      0
+    ],
     "behavior": [
       "Unit Target",
       "Autocast",
@@ -5670,7 +5768,7 @@
       50
     ],
     "cooldown": [
-      18
+      25
     ],
     "behavior": [
       "No Target",
@@ -5710,19 +5808,30 @@
     ],
     "human_name": "Summon Wolves"
   },
+  "333": {
+    "name": "lycan_wolf_bite",
+    "manacost": [
+      150
+    ],
+    "cooldown": [
+      80
+    ],
+    "behavior": [
+      "Unit Target",
+      "Hidden"
+    ],
+    "human_name": "Wolf Bite"
+  },
   "5396": {
     "name": "lycan_howl",
     "manacost": [
-      25,
-      30,
-      35,
-      40
+      50
     ],
     "cooldown": [
-      50,
-      45,
-      40,
-      35
+      24,
+      22,
+      20,
+      18
     ],
     "behavior": [
       "No Target"
@@ -5808,21 +5917,10 @@
   },
   "7309": {
     "name": "lone_druid_spirit_link",
-    "manacost": [
-      50,
-      60,
-      70,
-      80
-    ],
-    "cooldown": [
-      43,
-      36,
-      29,
-      22
-    ],
+    "manacost": null,
+    "cooldown": null,
     "behavior": [
-      "No Target",
-      "Instant Cast"
+      "Passive"
     ],
     "human_name": "Spirit Link"
   },
@@ -5862,14 +5960,10 @@
   "5415": {
     "name": "lone_druid_true_form",
     "manacost": [
-      25,
-      25,
-      25
+      200
     ],
     "cooldown": [
-      0,
-      0,
-      0
+      100
     ],
     "behavior": [
       "No Target"
@@ -5916,10 +6010,11 @@
       0
     ],
     "cooldown": [
-      5
+      30
     ],
     "behavior": [
-      "No Target"
+      "No Target",
+      "Channeled"
     ],
     "human_name": "Return"
   },
@@ -5931,6 +6026,25 @@
     ],
     "behavior": [
       "Passive"
+    ],
+    "human_name": "Entangling Claws"
+  },
+  "314": {
+    "name": "lone_druid_entangling_claws",
+    "manacost": [
+      75,
+      90,
+      105,
+      120
+    ],
+    "cooldown": [
+      16,
+      14,
+      12,
+      10
+    ],
+    "behavior": [
+      "Unit Target"
     ],
     "human_name": "Entangling Claws"
   },
@@ -5987,13 +6101,13 @@
   "7310": {
     "name": "brewmaster_cinder_brew",
     "manacost": [
-      50
+      80
     ],
     "cooldown": [
       20,
-      18,
-      16,
-      14
+      17,
+      14,
+      11
     ],
     "behavior": [
       "Point Target",
@@ -6235,10 +6349,10 @@
       50
     ],
     "cooldown": [
-      14,
-      11,
-      8,
-      5
+      15,
+      12,
+      9,
+      6
     ],
     "behavior": [
       "Unit Target"
@@ -6350,22 +6464,33 @@
     ],
     "human_name": "Nature's Guise"
   },
+  "338": {
+    "name": "treant_natures_grasp",
+    "manacost": [
+      60,
+      70,
+      80,
+      90
+    ],
+    "cooldown": [
+      20
+    ],
+    "behavior": [
+      "Unit Target",
+      "Point Target"
+    ],
+    "human_name": "Nature's Grasp"
+  },
   "5435": {
     "name": "treant_leech_seed",
     "manacost": [
-      100,
-      110,
-      120,
-      130
+      80
     ],
     "cooldown": [
-      16,
-      13,
-      10,
-      7
+      16
     ],
     "behavior": [
-      "Unit Target"
+      "No Target"
     ],
     "human_name": "Leech Seed"
   },
@@ -6375,10 +6500,10 @@
       50
     ],
     "cooldown": [
-      30,
-      24,
+      26,
+      22,
       18,
-      12
+      14
     ],
     "behavior": [
       "Unit Target",
@@ -6512,10 +6637,10 @@
   "5443": {
     "name": "undying_soul_rip",
     "manacost": [
-      80,
-      95,
+      100,
       110,
-      125
+      120,
+      130
     ],
     "cooldown": [
       24,
@@ -6569,7 +6694,9 @@
   "5447": {
     "name": "undying_flesh_golem",
     "manacost": [
-      100
+      100,
+      125,
+      150
     ],
     "cooldown": [
       125
@@ -7072,9 +7199,9 @@
   "5476": {
     "name": "keeper_of_the_light_blinding_light",
     "manacost": [
-      100,
-      125,
-      150,
+      130,
+      145,
+      160,
       175
     ],
     "cooldown": [
@@ -7192,8 +7319,8 @@
       0
     ],
     "behavior": [
-      "No Target",
-      "Instant Cast"
+      "Point Target",
+      "AOE"
     ],
     "human_name": "Stone Form"
   },
@@ -7254,7 +7381,7 @@
       100
     ],
     "cooldown": [
-      18
+      16
     ],
     "behavior": [
       "No Target",
@@ -8481,7 +8608,8 @@
       16
     ],
     "behavior": [
-      "No Target"
+      "Point Target",
+      "AOE"
     ],
     "human_name": "Reflection"
   },
@@ -9144,7 +9272,7 @@
     "manacost": null,
     "cooldown": null,
     "behavior": [
-      "Passive"
+      "No Target"
     ],
     "human_name": "Bulwark"
   },
@@ -9159,6 +9287,7 @@
       60
     ],
     "behavior": [
+      "Point Target",
       "AOE"
     ],
     "human_name": "Arena Of Blood"
@@ -9198,6 +9327,283 @@
       "Passive"
     ],
     "human_name": "Arena Of Blood Grants Team +100 HP Regen"
+  },
+  "7701": {
+    "name": "void_spirit_aether_remnant",
+    "manacost": [
+      85,
+      90,
+      95,
+      100
+    ],
+    "cooldown": [
+      17,
+      15,
+      13,
+      11
+    ],
+    "behavior": [
+      "Point Target"
+    ],
+    "human_name": "Aether Remnant"
+  },
+  "6470": {
+    "name": "void_spirit_dissimilate",
+    "manacost": [
+      100,
+      110,
+      120,
+      130
+    ],
+    "cooldown": [
+      20,
+      17,
+      14,
+      11
+    ],
+    "behavior": [
+      "No Target"
+    ],
+    "human_name": "Dissimilate"
+  },
+  "7705": {
+    "name": "void_spirit_astral_step",
+    "manacost": [
+      80,
+      90,
+      100
+    ],
+    "cooldown": [
+      0
+    ],
+    "behavior": [
+      "Point Target"
+    ],
+    "human_name": "Astral Step"
+  },
+  "7710": {
+    "name": "void_spirit_resonant_pulse",
+    "manacost": [
+      90,
+      100,
+      110,
+      120
+    ],
+    "cooldown": [
+      14
+    ],
+    "behavior": [
+      "No Target"
+    ],
+    "human_name": "Resonant Pulse"
+  },
+  "7706": {
+    "name": "special_bonus_unique_void_spirit_1",
+    "manacost": null,
+    "cooldown": null,
+    "behavior": [
+      "Passive"
+    ],
+    "human_name": "-7 Astral Step Charge Restore Time"
+  },
+  "7707": {
+    "name": "special_bonus_unique_void_spirit_2",
+    "manacost": null,
+    "cooldown": null,
+    "behavior": [
+      "Passive"
+    ],
+    "human_name": "Resonant Pulse Disjoints Projectiles"
+  },
+  "7708": {
+    "name": "special_bonus_unique_void_spirit_3",
+    "manacost": null,
+    "cooldown": null,
+    "behavior": [
+      "Passive"
+    ],
+    "human_name": "Dissimilate Stuns for 3.0s"
+  },
+  "7709": {
+    "name": "special_bonus_unique_void_spirit_4",
+    "manacost": null,
+    "cooldown": null,
+    "behavior": [
+      "Passive"
+    ],
+    "human_name": "+150 Resonant Pulse Damage"
+  },
+  "7711": {
+    "name": "special_bonus_unique_void_spirit_5",
+    "manacost": null,
+    "cooldown": null,
+    "behavior": [
+      "Passive"
+    ],
+    "human_name": "50% Larger Dissimilate Portals"
+  },
+  "7712": {
+    "name": "special_bonus_unique_void_spirit_6",
+    "manacost": null,
+    "cooldown": null,
+    "behavior": [
+      "Passive"
+    ],
+    "human_name": "Dissimilate Grants 3.0s Invisibility"
+  },
+  "7713": {
+    "name": "special_bonus_unique_void_spirit_7",
+    "manacost": null,
+    "cooldown": null,
+    "behavior": [
+      "Passive"
+    ],
+    "human_name": "Remnant Provides 600 Truesight"
+  },
+  "7714": {
+    "name": "special_bonus_unique_void_spirit_8",
+    "manacost": null,
+    "cooldown": null,
+    "behavior": [
+      "Passive"
+    ],
+    "human_name": "Astral Step 200% Crit"
+  },
+  "7715": {
+    "name": "special_bonus_unique_void_spirit_9",
+    "manacost": null,
+    "cooldown": null,
+    "behavior": [
+      "Passive"
+    ],
+    "human_name": "+2 Astral Step Charges"
+  },
+  "6480": {
+    "name": "snapfire_scatterblast",
+    "manacost": [
+      80,
+      90,
+      100,
+      110
+    ],
+    "cooldown": [
+      10
+    ],
+    "behavior": [
+      "Point Target"
+    ],
+    "human_name": "Scatterblast"
+  },
+  "6482": {
+    "name": "snapfire_mortimer_kisses",
+    "manacost": [
+      125,
+      150,
+      175
+    ],
+    "cooldown": [
+      90
+    ],
+    "behavior": [
+      "Point Target",
+      "AOE"
+    ],
+    "human_name": "Mortimer Kisses"
+  },
+  "6483": {
+    "name": "snapfire_firesnap_cookie",
+    "manacost": [
+      100
+    ],
+    "cooldown": [
+      24,
+      22,
+      20,
+      18
+    ],
+    "behavior": [
+      "Unit Target"
+    ],
+    "human_name": "Firesnap Cookie"
+  },
+  "6488": {
+    "name": "snapfire_lil_shredder",
+    "manacost": [
+      75
+    ],
+    "cooldown": [
+      24,
+      20,
+      16,
+      12
+    ],
+    "behavior": [
+      "No Target"
+    ],
+    "human_name": "Lil' Shredder"
+  },
+  "6485": {
+    "name": "special_bonus_unique_snapfire_1",
+    "manacost": null,
+    "cooldown": null,
+    "behavior": [
+      "Passive"
+    ],
+    "human_name": "+8 Mortimer Kisses Launched"
+  },
+  "6487": {
+    "name": "special_bonus_unique_snapfire_2",
+    "manacost": null,
+    "cooldown": null,
+    "behavior": [
+      "Passive"
+    ],
+    "human_name": "special_bonus_unique_snapfire_2"
+  },
+  "6489": {
+    "name": "special_bonus_unique_snapfire_3",
+    "manacost": null,
+    "cooldown": null,
+    "behavior": [
+      "Passive"
+    ],
+    "human_name": "Scatterblast Applies 3.0s Disarm"
+  },
+  "6490": {
+    "name": "special_bonus_unique_snapfire_4",
+    "manacost": null,
+    "cooldown": null,
+    "behavior": [
+      "Passive"
+    ],
+    "human_name": "+25% Mortimer Kisses Movement Slow"
+  },
+  "6479": {
+    "name": "special_bonus_unique_snapfire_5",
+    "manacost": null,
+    "cooldown": null,
+    "behavior": [
+      "Passive"
+    ],
+    "human_name": "Firesnap Cookie Restores 250 Health"
+  },
+  "382": {
+    "name": "special_bonus_unique_snapfire_6",
+    "manacost": null,
+    "cooldown": null,
+    "behavior": [
+      "Passive"
+    ],
+    "human_name": "Lil' Shredder Uses Your Attack Damage"
+  },
+  "384": {
+    "name": "special_bonus_unique_snapfire_7",
+    "manacost": null,
+    "cooldown": null,
+    "behavior": [
+      "Passive"
+    ],
+    "human_name": "+60 Scatterblast Damage"
   },
   "5350": {
     "name": "backdoor_protection",
@@ -9402,7 +9808,7 @@
     "name": "courier_burst",
     "manacost": null,
     "cooldown": [
-      90
+      120
     ],
     "behavior": [
       "No Target",
@@ -9541,7 +9947,7 @@
       50
     ],
     "cooldown": [
-      20
+      12
     ],
     "behavior": [
       "No Target"
@@ -9633,7 +10039,7 @@
       75
     ],
     "cooldown": [
-      20
+      15
     ],
     "behavior": [
       "Unit Target"
@@ -9646,7 +10052,7 @@
       50
     ],
     "cooldown": [
-      25
+      18
     ],
     "behavior": [
       "No Target"
@@ -10668,7 +11074,7 @@
       170
     ],
     "cooldown": [
-      12
+      0
     ],
     "behavior": [
       "Point Target",
@@ -12485,6 +12891,15 @@
     ],
     "human_name": "+12 Strength"
   },
+  "5978": {
+    "name": "special_bonus_strength_13",
+    "manacost": null,
+    "cooldown": null,
+    "behavior": [
+      "Passive"
+    ],
+    "human_name": "+13 Strength"
+  },
   "6281": {
     "name": "special_bonus_strength_14",
     "manacost": null,
@@ -13647,51 +14062,6 @@
     "human_name": "-60s Respawn Time"
   },
   "5955": {
-    "name": "special_bonus_gold_income_5",
-    "manacost": null,
-    "cooldown": null,
-    "behavior": [
-      "Passive"
-    ],
-    "human_name": "special_bonus_gold_income_5"
-  },
-  "5956": {
-    "name": "special_bonus_gold_income_10",
-    "manacost": null,
-    "cooldown": null,
-    "behavior": [
-      "Passive"
-    ],
-    "human_name": "special_bonus_gold_income_10"
-  },
-  "6007": {
-    "name": "special_bonus_gold_income_15",
-    "manacost": null,
-    "cooldown": null,
-    "behavior": [
-      "Passive"
-    ],
-    "human_name": "special_bonus_gold_income_15"
-  },
-  "6008": {
-    "name": "special_bonus_gold_income_20",
-    "manacost": null,
-    "cooldown": null,
-    "behavior": [
-      "Passive"
-    ],
-    "human_name": "special_bonus_gold_income_20"
-  },
-  "5957": {
-    "name": "special_bonus_gold_income_25",
-    "manacost": null,
-    "cooldown": null,
-    "behavior": [
-      "Passive"
-    ],
-    "human_name": "special_bonus_gold_income_25"
-  },
-  "6026": {
     "name": "special_bonus_gold_income_30",
     "manacost": null,
     "cooldown": null,
@@ -13700,41 +14070,86 @@
     ],
     "human_name": "+30 Gold/Min"
   },
-  "8005": {
-    "name": "special_bonus_gold_income_35",
+  "5956": {
+    "name": "special_bonus_gold_income_60",
     "manacost": null,
     "cooldown": null,
     "behavior": [
       "Passive"
     ],
-    "human_name": "special_bonus_gold_income_35"
+    "human_name": "+60 Gold/Min"
+  },
+  "6007": {
+    "name": "special_bonus_gold_income_90",
+    "manacost": null,
+    "cooldown": null,
+    "behavior": [
+      "Passive"
+    ],
+    "human_name": "+90 Gold/Min"
+  },
+  "6008": {
+    "name": "special_bonus_gold_income_120",
+    "manacost": null,
+    "cooldown": null,
+    "behavior": [
+      "Passive"
+    ],
+    "human_name": "+120 Gold/Min"
+  },
+  "5957": {
+    "name": "special_bonus_gold_income_150",
+    "manacost": null,
+    "cooldown": null,
+    "behavior": [
+      "Passive"
+    ],
+    "human_name": "+150 Gold/Min"
+  },
+  "6026": {
+    "name": "special_bonus_gold_income_180",
+    "manacost": null,
+    "cooldown": null,
+    "behavior": [
+      "Passive"
+    ],
+    "human_name": "+180 Gold/Min"
+  },
+  "8005": {
+    "name": "special_bonus_gold_income_210",
+    "manacost": null,
+    "cooldown": null,
+    "behavior": [
+      "Passive"
+    ],
+    "human_name": "+210 Gold/Min"
   },
   "6301": {
-    "name": "special_bonus_gold_income_40",
+    "name": "special_bonus_gold_income_240",
     "manacost": null,
     "cooldown": null,
     "behavior": [
       "Passive"
     ],
-    "human_name": "special_bonus_gold_income_40"
+    "human_name": "+240 Gold/Min"
   },
   "6318": {
-    "name": "special_bonus_gold_income_50",
+    "name": "special_bonus_gold_income_300",
     "manacost": null,
     "cooldown": null,
     "behavior": [
       "Passive"
     ],
-    "human_name": "special_bonus_gold_income_50"
+    "human_name": "+300 Gold/Min"
   },
   "6446": {
-    "name": "special_bonus_gold_income_70",
+    "name": "special_bonus_gold_income_420",
     "manacost": null,
     "cooldown": null,
     "behavior": [
       "Passive"
     ],
-    "human_name": "special_bonus_gold_income_70"
+    "human_name": "+420 Gold/Min"
   },
   "5971": {
     "name": "special_bonus_evasion_10",
@@ -13815,7 +14230,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "+2.0% 2.0s Bash"
+    "human_name": "+20.0% 2.0s Bash"
   },
   "6851": {
     "name": "special_bonus_30_crit_2",
@@ -13916,6 +14331,15 @@
     ],
     "human_name": "+40% XP Gain"
   },
+  "344": {
+    "name": "special_bonus_exp_boost_50",
+    "manacost": null,
+    "cooldown": null,
+    "behavior": [
+      "Passive"
+    ],
+    "human_name": "+50% XP Gain"
+  },
   "7125": {
     "name": "special_bonus_exp_boost_60",
     "manacost": null,
@@ -13995,7 +14419,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "+75 Purification AoE"
+    "human_name": "+100 Purification AoE"
   },
   "6322": {
     "name": "special_bonus_unique_centaur_1",
@@ -14022,7 +14446,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "+80 Retaliate Damage"
+    "human_name": "+90 Retaliate Damage"
   },
   "6617": {
     "name": "special_bonus_unique_centaur_4",
@@ -14067,7 +14491,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "+4 Maledict Tick"
+    "human_name": "+1 Maledict Tick"
   },
   "6996": {
     "name": "special_bonus_unique_witch_doctor_5",
@@ -14094,7 +14518,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "+0.8  Heartstopper Aura"
+    "human_name": "+0.6  Heartstopper Aura"
   },
   "7110": {
     "name": "special_bonus_unique_necrophos_3",
@@ -14113,6 +14537,15 @@
       "Passive"
     ],
     "human_name": "+40 Death Pulse Heal"
+  },
+  "350": {
+    "name": "special_bonus_unique_necrophos_5",
+    "manacost": null,
+    "cooldown": null,
+    "behavior": [
+      "Passive"
+    ],
+    "human_name": "+40 Heartstopper Regen Reduction"
   },
   "6012": {
     "name": "special_bonus_unique_antimage",
@@ -14312,6 +14745,15 @@
     ],
     "human_name": "-20% Rot Slow"
   },
+  "332": {
+    "name": "special_bonus_unique_pudge_5",
+    "manacost": null,
+    "cooldown": null,
+    "behavior": [
+      "Passive"
+    ],
+    "human_name": "-5 Meat Hook Cooldown"
+  },
   "6024": {
     "name": "special_bonus_unique_treant",
     "manacost": null,
@@ -14328,7 +14770,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "+50 Leech Seed Damage/Heal"
+    "human_name": "+40 Leech Seed Damage/Heal"
   },
   "6955": {
     "name": "special_bonus_unique_treant_3",
@@ -14375,6 +14817,42 @@
     ],
     "human_name": "700 AoE Living Armor"
   },
+  "339": {
+    "name": "special_bonus_unique_treant_8",
+    "manacost": null,
+    "cooldown": null,
+    "behavior": [
+      "Passive"
+    ],
+    "human_name": "+60 Living Armor Heal"
+  },
+  "340": {
+    "name": "special_bonus_unique_treant_9",
+    "manacost": null,
+    "cooldown": null,
+    "behavior": [
+      "Passive"
+    ],
+    "human_name": "+30 Nature's Grasp Damage"
+  },
+  "341": {
+    "name": "special_bonus_unique_treant_10",
+    "manacost": null,
+    "cooldown": null,
+    "behavior": [
+      "Passive"
+    ],
+    "human_name": "Gains Tree Walking"
+  },
+  "342": {
+    "name": "special_bonus_unique_treant_11",
+    "manacost": null,
+    "cooldown": null,
+    "behavior": [
+      "Passive"
+    ],
+    "human_name": "100 DPS Overgrowth"
+  },
   "6028": {
     "name": "special_bonus_unique_razor",
     "manacost": null,
@@ -14382,7 +14860,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "+7 Static Link Damage Steal"
+    "human_name": "+6 Static Link Damage Steal"
   },
   "6408": {
     "name": "special_bonus_unique_razor_2",
@@ -14528,6 +15006,15 @@
     ],
     "human_name": "+3s Frost Shield Duration"
   },
+  "318": {
+    "name": "special_bonus_unique_lich_5",
+    "manacost": null,
+    "cooldown": null,
+    "behavior": [
+      "Passive"
+    ],
+    "human_name": "Chain Frost Unlimited Bounces"
+  },
   "6041": {
     "name": "special_bonus_unique_rubick",
     "manacost": null,
@@ -14544,7 +15031,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "-60 Fade Bolt Hero Attack"
+    "human_name": "-75 Fade Bolt Hero Attack"
   },
   "6863": {
     "name": "special_bonus_unique_rubick_3",
@@ -14715,7 +15202,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "+50 Wards Attack Damage"
+    "human_name": "+40 Wards Attack Damage"
   },
   "6877": {
     "name": "special_bonus_unique_shadow_shaman_5",
@@ -14787,7 +15274,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "+400 Magic Missile Damage"
+    "human_name": "+200 Magic Missile Damage"
   },
   "6237": {
     "name": "special_bonus_unique_vengeful_spirit_2",
@@ -14796,7 +15283,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "+15 Vengeance Aura Attributes"
+    "human_name": "+8 Vengeance Aura Attributes"
   },
   "6057": {
     "name": "special_bonus_unique_vengeful_spirit_3",
@@ -14823,7 +15310,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "-6s Magic Missile Cooldown"
+    "human_name": "-3.5s Magic Missile Cooldown"
   },
   "7018": {
     "name": "special_bonus_unique_vengeful_spirit_6",
@@ -14833,6 +15320,15 @@
       "Passive"
     ],
     "human_name": "-6s Wave of Terror Cooldown"
+  },
+  "323": {
+    "name": "special_bonus_unique_vengeful_spirit_7",
+    "manacost": null,
+    "cooldown": null,
+    "behavior": [
+      "Passive"
+    ],
+    "human_name": "Vengeance Aura Illusion Casts Spells"
   },
   "6058": {
     "name": "special_bonus_unique_venomancer",
@@ -15058,6 +15554,15 @@
       "Passive"
     ],
     "human_name": "+60 Eidolon Damage"
+  },
+  "346": {
+    "name": "special_bonus_unique_enigma_4",
+    "manacost": null,
+    "cooldown": null,
+    "behavior": [
+      "Passive"
+    ],
+    "human_name": "+200 Eidolon Attack Range"
   },
   "6068": {
     "name": "special_bonus_unique_bane_1",
@@ -15462,7 +15967,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "-100 Untouchable Slow"
+    "human_name": "-80 Untouchable Slow"
   },
   "6515": {
     "name": "special_bonus_unique_enchantress_4",
@@ -15498,7 +16003,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "-13s Flamebreak Cooldown"
+    "human_name": "-9s Flamebreak Cooldown"
   },
   "6610": {
     "name": "special_bonus_unique_batrider_3",
@@ -15507,7 +16012,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "+2s Flamebreak Burn Duration"
+    "human_name": "+3s Flamebreak Burn Duration"
   },
   "6201": {
     "name": "special_bonus_unique_wraith_king_1",
@@ -15705,7 +16210,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "-16s Tornado Cooldown"
+    "human_name": "-10s Tornado Cooldown"
   },
   "6656": {
     "name": "special_bonus_unique_invoker_4",
@@ -15759,7 +16264,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "-15s Cold Snap Cooldown"
+    "human_name": "-10s Cold Snap Cooldown"
   },
   "7390": {
     "name": "special_bonus_unique_invoker_10",
@@ -15769,6 +16274,15 @@
       "Passive"
     ],
     "human_name": "-30s Ghost Walk Cooldown"
+  },
+  "315": {
+    "name": "special_bonus_unique_invoker_11",
+    "manacost": null,
+    "cooldown": null,
+    "behavior": [
+      "Passive"
+    ],
+    "human_name": "+2 Forged Spirit Armor Reduction"
   },
   "6100": {
     "name": "special_bonus_unique_abaddon",
@@ -15849,7 +16363,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "+30 Chemical Rage Regeneration"
+    "human_name": "+50 Chemical Rage Regeneration"
   },
   "7144": {
     "name": "special_bonus_unique_alchemist_5",
@@ -15859,6 +16373,15 @@
       "Passive"
     ],
     "human_name": "-3 Acid Spray Armor Reduction"
+  },
+  "351": {
+    "name": "special_bonus_unique_alchemist_6",
+    "manacost": null,
+    "cooldown": null,
+    "behavior": [
+      "Passive"
+    ],
+    "human_name": "+60 Chemical Rage Movement Speed"
   },
   "6102": {
     "name": "special_bonus_unique_axe",
@@ -15977,6 +16500,15 @@
     ],
     "human_name": "-30s Burning Army Cooldown"
   },
+  "345": {
+    "name": "special_bonus_unique_clinkz_6",
+    "manacost": null,
+    "cooldown": null,
+    "behavior": [
+      "Passive"
+    ],
+    "human_name": "+350 Death Pact Health"
+  },
   "6105": {
     "name": "special_bonus_unique_juggernaut",
     "manacost": null,
@@ -16002,7 +16534,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "+100 Blade Fury DPS"
+    "human_name": "+130 Blade Fury DPS"
   },
   "7394": {
     "name": "special_bonus_unique_juggernaut_4",
@@ -16011,7 +16543,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "+50 Blade Fury Movement Speed"
+    "human_name": "+75 Blade Fury Movement Speed"
   },
   "6106": {
     "name": "special_bonus_unique_winter_wyvern_1",
@@ -16137,7 +16669,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "+500 Timewalk Cast Range"
+    "human_name": "+450 Timewalk Cast Range"
   },
   "6651": {
     "name": "special_bonus_unique_faceless_void_2",
@@ -16191,7 +16723,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "+140 Hunter In The Night Attack Speed"
+    "human_name": "+110 Hunter In The Night Attack Speed"
   },
   "6130": {
     "name": "special_bonus_unique_nyx",
@@ -16471,6 +17003,15 @@
       "Passive"
     ],
     "human_name": "-2.0s Shackleshot Cooldown"
+  },
+  "7911": {
+    "name": "special_bonus_unique_windranger_10",
+    "manacost": null,
+    "cooldown": null,
+    "behavior": [
+      "Passive"
+    ],
+    "human_name": "+20 Windrun HP Regen"
   },
   "6146": {
     "name": "special_bonus_unique_phantom_lancer",
@@ -16920,7 +17461,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "+155 Arc Lightning Damage"
+    "human_name": "+145 Arc Lightning Damage"
   },
   "6518": {
     "name": "special_bonus_unique_zeus_3",
@@ -16974,7 +17515,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "+250 Flame Guard Absorption"
+    "human_name": "+275 Flame Guard Absorption"
   },
   "6176": {
     "name": "special_bonus_unique_ember_spirit_2",
@@ -17010,7 +17551,16 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "-20 Remnant Charge Restore Time"
+    "human_name": "-16 Remnant Charge Restore Time"
+  },
+  "353": {
+    "name": "special_bonus_unique_ember_spirit_6",
+    "manacost": null,
+    "cooldown": null,
+    "behavior": [
+      "Passive"
+    ],
+    "human_name": "+60 Sleight of Fist Hero Damage"
   },
   "6173": {
     "name": "special_bonus_unique_lifestealer",
@@ -17037,7 +17587,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "+1% Feast Lifesteal"
+    "human_name": "+1.5% Feast Lifesteal"
   },
   "6677": {
     "name": "special_bonus_reincarnation_200",
@@ -17100,7 +17650,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "-8s Ancient Seal Cooldown"
+    "human_name": "-9s Ancient Seal Cooldown"
   },
   "6884": {
     "name": "special_bonus_unique_skywrath_2",
@@ -17316,7 +17866,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "+25% Blur Evasion"
+    "human_name": "+30% Blur Evasion"
   },
   "6330": {
     "name": "special_bonus_unique_riki_1",
@@ -17325,7 +17875,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "+0.3 Backstab Multiplier"
+    "human_name": "+0.5 Backstab Multiplier"
   },
   "6193": {
     "name": "special_bonus_unique_riki_2",
@@ -17334,7 +17884,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "-8s Smoke Screen Cooldown"
+    "human_name": "-5s Smoke Screen Cooldown"
   },
   "6865": {
     "name": "special_bonus_unique_riki_3",
@@ -17362,6 +17912,15 @@
       "Passive"
     ],
     "human_name": "Cloak and Dagger Doesn't Reveal"
+  },
+  "347": {
+    "name": "special_bonus_unique_riki_6",
+    "manacost": null,
+    "cooldown": null,
+    "behavior": [
+      "Passive"
+    ],
+    "human_name": "-7 Tricks of the Trade Cooldown"
   },
   "6194": {
     "name": "special_bonus_unique_tusk",
@@ -17406,7 +17965,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "-6s Ice Shards Cooldown"
+    "human_name": "-8s Ice Shards Cooldown"
   },
   "7891": {
     "name": "special_bonus_unique_tusk_6",
@@ -17424,7 +17983,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "+35 Shrapnel DPS"
+    "human_name": "+30 Shrapnel DPS"
   },
   "6198": {
     "name": "special_bonus_unique_sniper_2",
@@ -17487,7 +18046,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "+20% Empower Damage/Cleave"
+    "human_name": "+15% Empower Damage/Cleave"
   },
   "6507": {
     "name": "special_bonus_unique_magnus_3",
@@ -17523,7 +18082,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "+25% Multishot Damage"
+    "human_name": "+35% Multishot Damage"
   },
   "6209": {
     "name": "special_bonus_unique_drow_ranger_2",
@@ -17541,7 +18100,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "+20 Marksmanship Chance"
+    "human_name": "+15 Marksmanship Chance"
   },
   "6634": {
     "name": "special_bonus_unique_drow_ranger_4",
@@ -17587,6 +18146,15 @@
       "Passive"
     ],
     "human_name": "+0.75s Rolling Boulder Stun Duration"
+  },
+  "324": {
+    "name": "special_bonus_unique_earth_spirit_4",
+    "manacost": null,
+    "cooldown": null,
+    "behavior": [
+      "Passive"
+    ],
+    "human_name": "+300 Rolling Boulder Distance"
   },
   "6204": {
     "name": "special_bonus_unique_huskar",
@@ -17649,7 +18217,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "-7s Ensnare Cooldown"
+    "human_name": "-9s Ensnare Cooldown"
   },
   "6701": {
     "name": "special_bonus_unique_naga_siren_3",
@@ -18036,7 +18604,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "+60% Arcane Orb Damage"
+    "human_name": "+2% Arcane Orb Damage"
   },
   "6711": {
     "name": "special_bonus_unique_outworld_devourer_2",
@@ -18063,7 +18631,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "+2 Sanity's Eclipse Mana Difference Multiplier"
+    "human_name": "+0.1 Sanity's Eclipse Mana Difference Multiplier"
   },
   "6217": {
     "name": "special_bonus_unique_keeper_of_the_light",
@@ -18135,7 +18703,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "+50 Overwhelming Odds Hero Damage"
+    "human_name": "+65 Overwhelming Odds Hero Damage"
   },
   "7395": {
     "name": "special_bonus_unique_legion_commander_5",
@@ -18181,6 +18749,15 @@
       "Passive"
     ],
     "human_name": "+40 Waning Rift Damage"
+  },
+  "348": {
+    "name": "special_bonus_unique_puck_5",
+    "manacost": null,
+    "cooldown": null,
+    "behavior": [
+      "Passive"
+    ],
+    "human_name": "Phase Shift Attack"
   },
   "6220": {
     "name": "special_bonus_unique_pugna_1",
@@ -18450,7 +19027,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "+0 True Form Health"
+    "human_name": "+1000 True Form Health"
   },
   "6806": {
     "name": "special_bonus_unique_lone_druid_8",
@@ -18459,7 +19036,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "-25s True Form Cooldown"
+    "human_name": "-40s True Form Cooldown"
   },
   "6265": {
     "name": "special_bonus_unique_wisp",
@@ -18486,7 +19063,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "0.5 Spirit Bear Attack Time"
+    "human_name": "0.25 Spirit Bear Attack Time"
   },
   "6537": {
     "name": "special_bonus_unique_wisp_2",
@@ -18585,7 +19162,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "+350 Spark Wraith Damage"
+    "human_name": "+300 Spark Wraith Damage"
   },
   "6354": {
     "name": "special_bonus_unique_arc_warden_2",
@@ -18639,7 +19216,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "+30 Poof Damage"
+    "human_name": "+40 Poof Damage"
   },
   "7027": {
     "name": "special_bonus_unique_meepo_3",
@@ -18702,7 +19279,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "+300 Tree Dance Vision AoE"
+    "human_name": "+400 Tree Dance Vision AoE"
   },
   "7025": {
     "name": "special_bonus_unique_monkey_king_6",
@@ -18765,7 +19342,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "+2.0s Rolling Thunder Duration"
+    "human_name": "+4.0s Rolling Thunder Duration"
   },
   "9391": {
     "name": "special_bonus_unique_pangolier_7",
@@ -18774,7 +19351,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "+300 Swashbuckle Slash Range"
+    "human_name": "+400 Swashbuckle Slash Range"
   },
   "6464": {
     "name": "special_bonus_unique_dark_willow_1",
@@ -18985,6 +19562,7 @@
       1
     ],
     "behavior": [
+      "Point Target",
       "Unit Target"
     ],
     "human_name": "seasonal_summon_cny_balloon"
@@ -19050,6 +19628,7 @@
       10
     ],
     "behavior": [
+      "Point Target",
       "Unit Target"
     ],
     "human_name": "Summon Sky Snake"
@@ -19063,7 +19642,7 @@
       30
     ],
     "behavior": [
-
+      "Point Target"
     ],
     "human_name": "Battle Standard"
   },
@@ -19076,6 +19655,7 @@
       20
     ],
     "behavior": [
+      "Point Target",
       "Channeled"
     ],
     "human_name": "Trusty Shovel"
@@ -19089,7 +19669,7 @@
       30
     ],
     "behavior": [
-
+      "Point Target"
     ],
     "human_name": "Drums of War"
   },
@@ -19102,7 +19682,7 @@
       45
     ],
     "behavior": [
-
+      "Point Target"
     ],
     "human_name": "Summon Monkey"
   },

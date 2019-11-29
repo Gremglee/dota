@@ -217,6 +217,7 @@
     "abilities": [
       5019,
       5632,
+      343,
       5022
     ],
     "params": {
@@ -450,9 +451,9 @@
       "base_mr": 25,
       "base_attack_min": 9,
       "base_attack_max": 18,
-      "base_str": 20,
+      "base_str": 22,
       "base_agi": 24,
-      "base_int": 13,
+      "base_int": 15,
       "str_gain": 3,
       "agi_gain": 4,
       "int_gain": 1,
@@ -558,6 +559,7 @@
       5075,
       5076,
       5074,
+      322,
       5077
     ],
     "params": {
@@ -771,6 +773,7 @@
     "abilities": [
       5106,
       5107,
+      5108,
       7850,
       5109,
       6937
@@ -835,10 +838,10 @@
       "base_mana_regen": 0,
       "base_armor": 0,
       "base_mr": 25,
-      "base_attack_min": 14,
-      "base_attack_max": 22,
+      "base_attack_min": 21,
+      "base_attack_max": 31,
       "base_str": 19,
-      "base_agi": 27,
+      "base_agi": 20,
       "base_int": 17,
       "str_gain": 2,
       "agi_gain": 3,
@@ -943,6 +946,7 @@
       5031,
       5032,
       5033,
+      319,
       5035,
       5034
     ],
@@ -1280,7 +1284,8 @@
     "abilities": [
       5142,
       5143,
-      5145
+      5145,
+      5144
     ],
     "params": {
       "primary_attr": "agi",
@@ -2072,6 +2077,7 @@
       5237,
       5238,
       5239,
+      321,
       5240
     ],
     "params": {
@@ -2368,6 +2374,7 @@
       5270,
       5268,
       5269,
+      320,
       5267
     ],
     "params": {
@@ -2887,7 +2894,7 @@
       "base_health_regen": 0,
       "base_mana": 75,
       "base_mana_regen": 0,
-      "base_armor": 2,
+      "base_armor": 1,
       "base_mr": 25,
       "base_attack_min": 24,
       "base_attack_max": 28,
@@ -3159,12 +3166,12 @@
       "base_mr": 25,
       "base_attack_min": 16,
       "base_attack_max": 31,
-      "base_str": 19,
+      "base_str": 21,
       "base_agi": 24,
-      "base_int": 28,
+      "base_int": 30,
       "str_gain": 2,
       "agi_gain": 2,
-      "int_gain": 3,
+      "int_gain": 4,
       "attack_range": 450,
       "projectile_speed": 900,
       "attack_rate": 1,
@@ -3182,6 +3189,7 @@
       5395,
       5396,
       5397,
+      333,
       5398
     ],
     "params": {
@@ -3437,6 +3445,7 @@
     "human_name": "Treant Protector",
     "primary_attribute": "strength",
     "abilities": [
+      338,
       5435,
       5436,
       5649,
@@ -4991,7 +5000,10 @@
     "human_name": "Void Spirit",
     "primary_attribute": "intelligence",
     "abilities": [
-
+      7701,
+      6470,
+      7710,
+      7705
     ],
     "params": {
       "primary_attr": "int",
@@ -5030,7 +5042,10 @@
     "human_name": "Snapfire",
     "primary_attribute": "strength",
     "abilities": [
-
+      6480,
+      6483,
+      6488,
+      6482
     ],
     "params": {
       "primary_attr": "str",
@@ -5045,14 +5060,14 @@
       "base_health_regen": 0,
       "base_mana": 75,
       "base_mana_regen": 0,
-      "base_armor": -1,
+      "base_armor": 1,
       "base_mr": 25,
       "base_attack_min": 30,
       "base_attack_max": 36,
       "base_str": 20,
       "base_agi": 16,
       "base_int": 18,
-      "str_gain": 2,
+      "str_gain": 3,
       "agi_gain": 1,
       "int_gain": 2,
       "attack_range": 500,
