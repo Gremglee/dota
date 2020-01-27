@@ -278,7 +278,7 @@
       250
     ],
     "cooldown": [
-      60
+      70
     ],
     "behavior": [
       "Unit Target"
@@ -310,9 +310,9 @@
     "name": "drow_ranger_multishot",
     "manacost": [
       50,
-      60,
       70,
-      80
+      90,
+      110
     ],
     "cooldown": [
       26,
@@ -1960,6 +1960,9 @@
       130
     ],
     "cooldown": [
+      12,
+      11,
+      10,
       9
     ],
     "behavior": [
@@ -3292,7 +3295,8 @@
     ],
     "behavior": [
       "Point Target",
-      "Hidden"
+      "Hidden",
+      "Channeled"
     ],
     "human_name": "Psionic Projection"
   },
@@ -3313,7 +3317,7 @@
   "5218": {
     "name": "viper_poison_attack",
     "manacost": [
-      20
+      25
     ],
     "cooldown": [
       0
@@ -4983,9 +4987,9 @@
     "name": "doom_bringer_scorched_earth",
     "manacost": [
       60,
-      65,
       70,
-      75
+      80,
+      90
     ],
     "cooldown": [
       50,
@@ -5213,10 +5217,7 @@
   "5357": {
     "name": "ursa_earthshock",
     "manacost": [
-      75,
-      75,
-      75,
-      75
+      85
     ],
     "cooldown": [
       9,
@@ -6447,20 +6448,10 @@
   },
   "5434": {
     "name": "treant_natures_guise",
-    "manacost": [
-      30,
-      40,
-      50,
-      60
-    ],
-    "cooldown": [
-      10,
-      8,
-      6,
-      4
-    ],
+    "manacost": null,
+    "cooldown": null,
     "behavior": [
-      "No Target"
+      "Passive"
     ],
     "human_name": "Nature's Guise"
   },
@@ -6473,10 +6464,12 @@
       90
     ],
     "cooldown": [
-      20
+      20,
+      19,
+      18,
+      17
     ],
     "behavior": [
-      "Unit Target",
       "Point Target"
     ],
     "human_name": "Nature's Grasp"
@@ -6484,10 +6477,13 @@
   "5435": {
     "name": "treant_leech_seed",
     "manacost": [
-      80
+      110
     ],
     "cooldown": [
-      16
+      22,
+      19,
+      16,
+      13
     ],
     "behavior": [
       "No Target"
@@ -6514,14 +6510,12 @@
   "5437": {
     "name": "treant_overgrowth",
     "manacost": [
-      150,
-      175,
-      200
+      200,
+      250,
+      300
     ],
     "cooldown": [
-      100,
-      85,
-      70
+      100
     ],
     "behavior": [
       "No Target"
@@ -6570,7 +6564,8 @@
       6
     ],
     "behavior": [
-      "Unit Target"
+      "Unit Target",
+      "Hidden"
     ],
     "human_name": "Unrefined Fireblast"
   },
@@ -7319,8 +7314,8 @@
       0
     ],
     "behavior": [
-      "Point Target",
-      "AOE"
+      "No Target",
+      "Instant Cast"
     ],
     "human_name": "Stone Form"
   },
@@ -9369,8 +9364,6 @@
   "7705": {
     "name": "void_spirit_astral_step",
     "manacost": [
-      80,
-      90,
       100
     ],
     "cooldown": [
@@ -9384,13 +9377,13 @@
   "7710": {
     "name": "void_spirit_resonant_pulse",
     "manacost": [
-      90,
       100,
       110,
-      120
+      120,
+      130
     ],
     "cooldown": [
-      14
+      16
     ],
     "behavior": [
       "No Target"
@@ -9431,7 +9424,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "+150 Resonant Pulse Damage"
+    "human_name": "+100 Resonant Pulse Damage"
   },
   "7711": {
     "name": "special_bonus_unique_void_spirit_5",
@@ -9502,7 +9495,7 @@
       175
     ],
     "cooldown": [
-      90
+      110
     ],
     "behavior": [
       "Point Target",
@@ -9517,9 +9510,9 @@
     ],
     "cooldown": [
       24,
-      22,
-      20,
-      18
+      21,
+      18,
+      15
     ],
     "behavior": [
       "Unit Target"
@@ -9529,7 +9522,7 @@
   "6488": {
     "name": "snapfire_lil_shredder",
     "manacost": [
-      75
+      90
     ],
     "cooldown": [
       24,
@@ -9627,7 +9620,7 @@
     "name": "filler_ability",
     "manacost": null,
     "cooldown": [
-      300
+      240
     ],
     "behavior": [
       "Passive"
@@ -14788,7 +14781,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "+2.0s Nature's Guise Root"
+    "human_name": "Nature's Guise Invisibility"
   },
   "6957": {
     "name": "special_bonus_unique_treant_5",
@@ -14815,7 +14808,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "700 AoE Living Armor"
+    "human_name": "550 AoE Living Armor"
   },
   "339": {
     "name": "special_bonus_unique_treant_8",
@@ -15706,7 +15699,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "1.5s Meld Hit Bash"
+    "human_name": "1.25s Meld Hit Bash"
   },
   "6072": {
     "name": "special_bonus_unique_crystal_maiden_1",
@@ -15742,7 +15735,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "+14% Manacost/Manaloss Reduction Aura"
+    "human_name": "+10% Magic Resistance Arcane Aura"
   },
   "6073": {
     "name": "special_bonus_unique_doom_1",
@@ -17875,7 +17868,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "+0.5 Backstab Multiplier"
+    "human_name": "+0.8 Backstab Multiplier"
   },
   "6193": {
     "name": "special_bonus_unique_riki_2",
@@ -19252,7 +19245,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "+75 Jingu Mastery Damage"
+    "human_name": "+100 Jingu Mastery Damage"
   },
   "6696": {
     "name": "special_bonus_unique_monkey_king_3",
@@ -19396,7 +19389,7 @@
     "behavior": [
       "Passive"
     ],
-    "human_name": "1.5x Stroke of Fate Damage"
+    "human_name": "+50% Stroke of Fate Damage"
   },
   "8003": {
     "name": "special_bonus_unique_grimstroke_3",
@@ -19476,7 +19469,20 @@
     "behavior": [
       "Point Target"
     ],
-    "human_name": "Summon Snowman"
+    "human_name": "Build Snowman"
+  },
+  "7814": {
+    "name": "seasonal_summon_penguin",
+    "manacost": [
+      0
+    ],
+    "cooldown": [
+      30
+    ],
+    "behavior": [
+      "Point Target"
+    ],
+    "human_name": "Summon Penguin"
   },
   "7807": {
     "name": "seasonal_decorate_tree",
